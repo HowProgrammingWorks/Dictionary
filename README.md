@@ -1,2 +1,120 @@
-# Dictionary
-Programming Dictionary
+# Programming Dictionary
+
+## Базовые понятия
+
+- [Абстракция / Abstraction](https://github.com/HowProgrammingWorks/Abstractions)
+- [Переменная / Variable]
+- [Константа / Constant]
+- [Типы данных / Data Types](https://github.com/HowProgrammingWorks/DataTypes)
+- [Скалярные типы / Scalar Types]
+- [Ссылочные типы / Reference]
+- [Объект / Object]
+- [Класс / Class]
+- [Прототип / Protorype]
+- [Cтруктуры данных](https://github.com/HowProgrammingWorks/DataStructures)
+- [Массив / Array]
+- [Функция](https://github.com/HowProgrammingWorks/Function)
+- [Контекст]
+- [Область видимости / Scope]
+- [Анонимная функция / Anonymous function]
+- [Лямбда функция, Лябмда выражение, Функция-стрелка/ Lambda function, Lambda expression, Arrow function]
+- [Чистая функция / Pure Function]
+- [Побочные эффекты / Side effects]
+- [Метод / Method]
+- [Суперпозиция / Superposition]
+- [Композиция / Composition](https://github.com/HowProgrammingWorks/Composition)
+- [Частичное применение / Partial application](https://github.com/HowProgrammingWorks/PartialApplication)
+- [Каррирование / Currying]
+- [Обертка / Wrapper](https://github.com/HowProgrammingWorks/Wrapper)
+- [Интерфейс / Interface]
+- [Прикладной интерфейс / Application Interface, API]
+- [Синглтон / Singleton]
+- [Функция высшего порядка / Higher-order Function](https://github.com/HowProgrammingWorks/HigherOrderFunction)
+- [Функция обратного вызова, колбек / Callback]
+- [Замыкание / Closure](https://github.com/HowProgrammingWorks/Closure)
+- [Событие / Event]
+- [Лисенер / Listener]
+- [Дифер / Deferred]
+- [Промис / Promise](https://github.com/HowProgrammingWorks/Promise)
+- [Фьючер / Future]
+- [Итерирование / Iteration](https://github.com/HowProgrammingWorks/Iteration)
+- [Итератор / Iterator]
+- [Цикл / Loop]
+- [Строка / String](https://github.com/HowProgrammingWorks/String)
+- [Коллекция / Collection]
+- [Множество / Set](https://github.com/HowProgrammingWorks/Set)
+- [Ключ-значение, Хешмап / Map, Key-value](https://github.com/HowProgrammingWorks/KeyValue)
+- [Список / List](https://github.com/HowProgrammingWorks/LinkedList) Односвязный, двусвязный, кольцо
+- [Дерево](https://github.com/HowProgrammingWorks/TreeNode)
+- [Граф / Graph](https://github.com/HowProgrammingWorks/DirectedGraph)
+- [Файл / File](https://github.com/HowProgrammingWorks/Files)
+- [Поток, Файловый поток / Stream, File Stream](https://github.com/HowProgrammingWorks/Streams)
+- [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)
+- [Сокет / Socket](https://github.com/HowProgrammingWorks/Socket)
+- [Дескриптор / Descriptor]
+- [Состояние / State]
+- [Функциональный объект]
+- [Функтор / Functor](https://github.com/HowProgrammingWorks/Functor)
+- [Аппликативный функтор]
+- [Монада]
+- [Кеш, Кеширование]
+- [Хеш, Хеширование]
+- [Мемоизация / Memoization](https://github.com/HowProgrammingWorks/Memoization)
+- [Примесь / Mixin](https://github.com/HowProgrammingWorks/Mixin)
+- [Декоратор / Decorator]
+- [Наследование / Inheritance]
+- [Множественное наследование / Multiple Inheritance]
+- [Непрямое наследование / Indirect Inheritance]
+- [Функциональное наследование / Functional Inheritance]
+- [Генератор / Generator](https://github.com/HowProgrammingWorks/Generator)
+- [Синхронные операции]
+- [Асинхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
+- [Ввод/вывод / I/O, Input-output]
+- [EventEmitter](https://github.com/HowProgrammingWorks/EventEmitter)
+- [Чеининг / Chaining](https://github.com/HowProgrammingWorks/Chaining)
+- [Сериализация / Serialization](https://github.com/HowProgrammingWorks/Serialization)
+- [Десериализация / Deserialization]
+- [Парсинг / Parsing]
+- [Регулярные выражения / Regular Expressions](https://github.com/HowProgrammingWorks/RegExp)
+- [Модуль, модульность](https://github.com/HowProgrammingWorks/Modularity)
+- [Слой / Layer]
+- [Зависимость / Dependency]
+- [Линтер / Linter]
+- [Декомпозиция / Decomposition]
+- [Ленивость / Lazy]
+- [Прокси / Proxy]
+- [Символ / Symbol]
+
+## Расширенные понятия
+
+- [Неизменяемые данные / Immutable Data]
+- [Изменяемые данные / Mutable Data]
+- [Интроспекция / Introspection]
+- [Рефлексия / Reflection]
+- [Скаффолдинг / Scaffolding]
+- [Инверсия управления / IoC, Inversion of Control](https://github.com/HowProgrammingWorks/InversionOfControl)
+- [Внедрение зависимостей / DI, Dependency Injection](https://github.com/HowProgrammingWorks/DependencyInjection)
+- [Межпроцессовое взаимодействие / IPC, Interprocess Communication](https://github.com/HowProgrammingWorks/InterProcessCommunication)
+- [Песочница / Sandbox](https://github.com/HowProgrammingWorks/Sandboxes)
+- [Архитектура / Architecture]
+- [Слой доступа к данным / Data Access Layer]
+- [Курсор / Cursor]
+- [Объектно-реляционное отображение / ORM, Object-relational Mapping]
+- [Сервер приложений / Application Server]
+- [Тонкий клиент]
+- [Толстый клиент]
+- [Проекция данных / Projection](https://github.com/HowProgrammingWorks/Projection)
+
+## Парадигмы программирования
+
+- [Императивное программирование / Imperative Programming]
+- [Неструктурное программирование / Non-structured ]
+- [Структурное программирование / Structured Programming]
+- [Процедурное программирование / Procedural Programming]
+- [Функциональное программирование / Functional Programming]
+- [Логическое программирование / Logical Programming]
+- [Декларативное программирование / Declarative Programming]
+- [Асинхронное программирование / Asynchronous Programming]
+- [Реактивное программирование / Reactive Programming]
+- [Событийное программирование / Event-driven Programming](https://github.com/HowProgrammingWorks/EventDrivenProgramming)
+- [Метапрограммирование / Metaprogramming](https://github.com/HowProgrammingWorks/Metaprogramming)
