@@ -3,33 +3,58 @@
 ## Базовые понятия
 
 - [Абстракция / Abstraction](https://github.com/HowProgrammingWorks/Abstractions)
+  - обобщенное (абстрактное) решение задачи, в отличие от конкретного решения, подходящее для широкого круга задач
+  - модель реального объекта (или множества объектов), являющаяся приближением к реальности, обобщением
+  - множество свойств объекта, относящиеся к определенному его аспекту
+  - [Слои абстракций / Abstraction Layer](https://github.com/HowProgrammingWorks/AbstractionLayers)
 - [Переменная / Variable](https://github.com/HowProgrammingWorks/DataTypes)
+  - `let cityName = 'Beijing';`
 - [Константа / Constant](https://github.com/HowProgrammingWorks/DataTypes)
+  - `const cityName = 'Beijing';`
 - [Типы данных / Data Types](https://github.com/HowProgrammingWorks/DataTypes)
+  - `[5, 'Kiev', true, { city: 'Beijing' }, a => ++a ].map(x => typeof(x));`
 - [Скалярные типы / Scalar Types](https://github.com/HowProgrammingWorks/DataTypes)
 - [Ссылочные типы / Reference](https://github.com/HowProgrammingWorks/DataTypes)
 - [Объект / Object](https://github.com/HowProgrammingWorks/DataTypes)
-- [Класс / Class]
-- [Прототип / Protorype]
+- Инстанциирование / Instantiation
+- Класс / Class
+- Прототип / Protorype
 - [Cтруктуры данных](https://github.com/HowProgrammingWorks/DataStructures)
-- [Массив / Array]
+- Массив / Array
+  - `const cities = ['Tehran', 'Yalta', 'Potsdam'];`
 - [Функция](https://github.com/HowProgrammingWorks/Function)
+  - Объявление функции / Function definition
+    - `function max(a, b) { return a + b; }`
+  - Функциональное выражение / Function expression
+    - Функциональное выражение с именованной функцией / Named function expression
+      - `const max = function max(a, b) { return a + b; };`
+    - Анонимное функциональное выражение / Anonymous function expression
+     - `const max = function(a, b) { return a + b; };`
+    - Лямбда функция / Lambda function
+      - `const max = (a, b) => { return a + b; };`
+    - Лябмда выражение, Функция-стрелка / Lambda expression, Arrow function
+      - `const max = (a, b) => (a + b);`
+  - [Чистая функция / Pure Function](https://github.com/HowProgrammingWorks/Function)
+  - [Суперпозиция / Superposition](https://github.com/HowProgrammingWorks/Composition)
+    - `const expr2 = add(pow(mul(5, 8), 2), div(inc(sqrt(20)), log(2, 7)));`
+  - [Композиция / Composition](https://github.com/HowProgrammingWorks/Composition)
+  - [Частичное применение / Partial application](https://github.com/HowProgrammingWorks/PartialApplication)
+    - `const partial = (fn, x) => (...args) => fn(x, ...args);`
+  - [Каррирование / Currying](https://github.com/HowProgrammingWorks/PartialApplication)
+    - `const result = curry((a, b, c) => (a + b + c))(1, 2)(3);`
+  - [Побочные эффекты / Side effects](https://github.com/HowProgrammingWorks/Function)
+  - [Функция высшего порядка / Higher-order Function](https://github.com/HowProgrammingWorks/HigherOrderFunction)
+    - Если функция только в аргументах, то это колбек
+    - Если функция только в результате, то это фабрика функций
+    - Если функция в аргументах и в результате, то это обертка
+  - [Функциональное наследование / Functional Inheritance]
+- [Метод / Method](https://github.com/HowProgrammingWorks/Function)
 - [Контекст](https://github.com/HowProgrammingWorks/Function)
 - [Область видимости / Scope](https://github.com/HowProgrammingWorks/Function)
-- [Анонимная функция / Anonymous function](https://github.com/HowProgrammingWorks/Function)
-- [Лямбда функция, Лябмда выражение, Функция-стрелка/ Lambda function, Lambda expression, Arrow function](https://github.com/HowProgrammingWorks/Function)
-- [Чистая функция / Pure Function](https://github.com/HowProgrammingWorks/Function)
-- [Побочные эффекты / Side effects](https://github.com/HowProgrammingWorks/Function)
-- [Метод / Method](https://github.com/HowProgrammingWorks/Function)
-- [Суперпозиция / Superposition](https://github.com/HowProgrammingWorks/Composition)
-- [Композиция / Composition](https://github.com/HowProgrammingWorks/Composition)
-- [Частичное применение / Partial application](https://github.com/HowProgrammingWorks/PartialApplication)
-- [Каррирование / Currying](https://github.com/HowProgrammingWorks/PartialApplication)
 - [Обертка / Wrapper](https://github.com/HowProgrammingWorks/Wrapper)
-- [Интерфейс / Interface]
-- [Прикладной интерфейс / Application Interface, API]
-- [Синглтон / Singleton]
-- [Функция высшего порядка / Higher-order Function](https://github.com/HowProgrammingWorks/HigherOrderFunction)
+- Интерфейс / Interface
+- Прикладной интерфейс / Application Interface, API
+- Синглтон / Singleton
 - [Функция обратного вызова, колбек / Callback](https://github.com/HowProgrammingWorks/Callbacks)
 - [Замыкание / Closure](https://github.com/HowProgrammingWorks/Closure)
 - [Событие / Event](https://github.com/HowProgrammingWorks/Callbacks)
@@ -53,20 +78,22 @@
 - [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)
 - [Сокет / Socket](https://github.com/HowProgrammingWorks/Socket)
 - [Дескриптор / Descriptor](https://github.com/HowProgrammingWorks/Files)
-- [Состояние / State]
+- Состояние / State
+- Кэш, Кэширование / Cache
+- Хэш, Хэширование / Hashing
 - [Функциональный объект](https://github.com/HowProgrammingWorks/Functor)
-- [Функтор / Functor](https://github.com/HowProgrammingWorks/Functor)
-- [Аппликативный функтор](https://github.com/HowProgrammingWorks/Functor)
-- [Монада / Monad]
-- [Кэш, Кэширование / Cache]
-- [Хэш, Хэширование / Hashing]
+  - [Функтор / Functor](https://github.com/HowProgrammingWorks/Functor)
+    - Рекурсивное замыкание / Recursive closure
+    - Объект функционального типа, хранящий в себе защищенное значение и позволяющий отобразить это значение в другой функтор через функцию
+  - [Аппликативный функтор](https://github.com/HowProgrammingWorks/Functor)
+  - [Монада / Monad]
 - [Мемоизация / Memoization](https://github.com/HowProgrammingWorks/Memoization)
 - [Примесь / Mixin](https://github.com/HowProgrammingWorks/Mixin)
-- [Декоратор / Decorator]
+  - Добавление свойств, методов или поведения к объекту после его инстанциирования (создания)
+- Декоратор / Decorator
 - [Наследование / Inheritance](https://github.com/HowProgrammingWorks/Function)
-- [Множественное наследование / Multiple Inheritance]
-- [Непрямое наследование / Indirect Inheritance]
-- [Функциональное наследование / Functional Inheritance]
+- Множественное наследование / Multiple Inheritance
+- Непрямое наследование / Indirect Inheritance
 - [Генератор / Generator](https://github.com/HowProgrammingWorks/Generator)
 - [Синхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
 - [Асинхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
@@ -75,36 +102,35 @@
 - [Чеининг / Chaining](https://github.com/HowProgrammingWorks/Chaining)
 - [Сериализация / Serialization](https://github.com/HowProgrammingWorks/Serialization)
 - [Десериализация / Deserialization](https://github.com/HowProgrammingWorks/Serialization)
-- [Парсинг / Parsing]
+- Парсинг / Parsing
 - [Регулярные выражения / Regular Expressions](https://github.com/HowProgrammingWorks/RegExp)
 - [Модуль, модульность](https://github.com/HowProgrammingWorks/Modularity)
-- [Слой абстракций / Abstraction Layer](https://github.com/HowProgrammingWorks/AbstractionLayers)
 - [Зависимость / Dependency](https://github.com/HowProgrammingWorks/Project)
 - [Линтер / Linter](https://github.com/HowProgrammingWorks/Tools)
-- [Декомпозиция / Decomposition]
+- Декомпозиция / Decomposition
 - [Ленивость / Lazy](https://github.com/HowProgrammingWorks/Lazy)
 - [Прокси / Proxy](https://github.com/HowProgrammingWorks/Proxy)
 - [Символ / Symbol](https://github.com/HowProgrammingWorks/Symbol)
-- [Обрабутка ошибок / Error handling](https://github.com/HowProgrammingWorks/Errors)
+- [Обработка ошибок / Error handling](https://github.com/HowProgrammingWorks/Errors)
 
 ## Расширенные понятия
 
-- [Неизменяемые данные / Immutable Data]
-- [Изменяемые данные / Mutable Data]
-- [Интроспекция / Introspection]
-- [Рефлексия / Reflection]
-- [Скаффолдинг / Scaffolding]
+- Неизменяемые данные / Immutable Data
+- Изменяемые данные / Mutable Data
+- Интроспекция / Introspection
+- Рефлексия / Reflection
+- Скаффолдинг / Scaffolding
 - [Инверсия управления / IoC, Inversion of Control](https://github.com/HowProgrammingWorks/InversionOfControl)
 - [Внедрение зависимостей / DI, Dependency Injection](https://github.com/HowProgrammingWorks/DependencyInjection)
 - [Межпроцессовое взаимодействие / IPC, Interprocess Communication](https://github.com/HowProgrammingWorks/InterProcessCommunication)
 - [Песочница / Sandbox](https://github.com/HowProgrammingWorks/Sandboxes)
-- [Архитектура / Architecture]
-- [Слой доступа к данным / Data Access Layer]
-- [Курсор / Cursor]
-- [Объектно-реляционное отображение / ORM, Object-relational Mapping]
-- [Сервер приложений / Application Server]
-- [Тонкий клиент]
-- [Толстый клиент]
+- Архитектура / Architecture
+- Слой доступа к данным / Data Access Layer
+- Курсор / Cursor
+- Объектно-реляционное отображение / ORM, Object-relational Mapping
+- Сервер приложений / Application Server
+- Тонкий клиент
+- Толстый клиент
 - [Проекция данных / Projection](https://github.com/HowProgrammingWorks/Projection)
 - [Измерение производительности / Benchmarking](https://github.com/HowProgrammingWorks/Benchmark)
 - [Интерфейс командной строки / CLI, Command Line Interface and Console](https://github.com/HowProgrammingWorks/CommandLine)
@@ -112,15 +138,18 @@
 
 ## Парадигмы программирования
 
-- [Императивное программирование / Imperative Programming]
-- [Неструктурное программирование / Non-structured ]
-- [Структурное программирование / Structured Programming]
-- [Процедурное программирование / Procedural Programming]
-- [Функциональное программирование / Functional Programming]
+- [Императивное программирование / Imperative Programming](https://github.com/HowProgrammingWorks/ImperativeProgramming)
+  - Неструктурное программирование / Non-structured
+  - Структурное программирование / Structured Programming
+  - Процедурное программирование / Procedural Programming
+  - [Object-oriented programming](https://github.com/HowProgrammingWorks/ObjectOrientedProgramming)
+  - [Prototype-oriented programming](https://github.com/HowProgrammingWorks/PrototypeOrientedProgramming)
+- [Функциональное программирование / Functional Programming](https://github.com/HowProgrammingWorks/FunctionalProgramming)
 - [Логическое программирование / Logical Programming]
 - [Декларативное программирование / Declarative Programming]
 - [Программирование управляемое данными / Data-driven Programming](https://github.com/HowProgrammingWorks/DataDrivenProgramming)
-- [Асинхронное программирование / Asynchronous Programming]
-- [Реактивное программирование / Reactive Programming]
+- Техники программирования
+  - [Асинхронное программирование / Asynchronous Programming]
+  - [Реактивное программирование / Reactive Programming]
 - [Событийное программирование / Event-driven Programming](https://github.com/HowProgrammingWorks/EventDrivenProgramming)
 - [Метапрограммирование / Metaprogramming](https://github.com/HowProgrammingWorks/Metaprogramming)
