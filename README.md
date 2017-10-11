@@ -3,87 +3,89 @@
 ## Базовые понятия
 
 - [Абстракция / Abstraction](https://github.com/HowProgrammingWorks/Abstractions)
-- [Переменная / Variable]
-- [Константа / Constant]
+- [Переменная / Variable](https://github.com/HowProgrammingWorks/DataTypes)
+- [Константа / Constant](https://github.com/HowProgrammingWorks/DataTypes)
 - [Типы данных / Data Types](https://github.com/HowProgrammingWorks/DataTypes)
-- [Скалярные типы / Scalar Types]
-- [Ссылочные типы / Reference]
-- [Объект / Object]
+- [Скалярные типы / Scalar Types](https://github.com/HowProgrammingWorks/DataTypes)
+- [Ссылочные типы / Reference](https://github.com/HowProgrammingWorks/DataTypes)
+- [Объект / Object](https://github.com/HowProgrammingWorks/DataTypes)
 - [Класс / Class]
 - [Прототип / Protorype]
 - [Cтруктуры данных](https://github.com/HowProgrammingWorks/DataStructures)
 - [Массив / Array]
 - [Функция](https://github.com/HowProgrammingWorks/Function)
-- [Контекст]
-- [Область видимости / Scope]
-- [Анонимная функция / Anonymous function]
-- [Лямбда функция, Лябмда выражение, Функция-стрелка/ Lambda function, Lambda expression, Arrow function]
-- [Чистая функция / Pure Function]
-- [Побочные эффекты / Side effects]
-- [Метод / Method]
-- [Суперпозиция / Superposition]
+- [Контекст](https://github.com/HowProgrammingWorks/Function)
+- [Область видимости / Scope](https://github.com/HowProgrammingWorks/Function)
+- [Анонимная функция / Anonymous function](https://github.com/HowProgrammingWorks/Function)
+- [Лямбда функция, Лябмда выражение, Функция-стрелка/ Lambda function, Lambda expression, Arrow function](https://github.com/HowProgrammingWorks/Function)
+- [Чистая функция / Pure Function](https://github.com/HowProgrammingWorks/Function)
+- [Побочные эффекты / Side effects](https://github.com/HowProgrammingWorks/Function)
+- [Метод / Method](https://github.com/HowProgrammingWorks/Function)
+- [Суперпозиция / Superposition](https://github.com/HowProgrammingWorks/Composition)
 - [Композиция / Composition](https://github.com/HowProgrammingWorks/Composition)
 - [Частичное применение / Partial application](https://github.com/HowProgrammingWorks/PartialApplication)
-- [Каррирование / Currying]
+- [Каррирование / Currying](https://github.com/HowProgrammingWorks/PartialApplication)
 - [Обертка / Wrapper](https://github.com/HowProgrammingWorks/Wrapper)
 - [Интерфейс / Interface]
 - [Прикладной интерфейс / Application Interface, API]
 - [Синглтон / Singleton]
 - [Функция высшего порядка / Higher-order Function](https://github.com/HowProgrammingWorks/HigherOrderFunction)
-- [Функция обратного вызова, колбек / Callback]
+- [Функция обратного вызова, колбек / Callback](https://github.com/HowProgrammingWorks/Callbacks)
 - [Замыкание / Closure](https://github.com/HowProgrammingWorks/Closure)
-- [Событие / Event]
-- [Лисенер / Listener]
-- [Дифер / Deferred]
+- [Событие / Event](https://github.com/HowProgrammingWorks/Callbacks)
+- [Лисенер / Listener](https://github.com/HowProgrammingWorks/Callbacks)
+- [Дифер / Deferred](https://github.com/HowProgrammingWorks/Callbacks)
 - [Промис / Promise](https://github.com/HowProgrammingWorks/Promise)
-- [Фьючер / Future]
+- [Фьючер / Future](https://github.com/HowProgrammingWorks/Callbacks)
 - [Итерирование / Iteration](https://github.com/HowProgrammingWorks/Iteration)
-- [Итератор / Iterator]
-- [Цикл / Loop]
+- [Итератор / Iterator](https://github.com/HowProgrammingWorks/Iteration)
+- [Цикл / Loop](https://github.com/HowProgrammingWorks/Iteration)
+- [Условие / Conditional statements](https://github.com/HowProgrammingWorks/Conditional)
 - [Строка / String](https://github.com/HowProgrammingWorks/String)
-- [Коллекция / Collection]
+- [Коллекция / Collection](https://github.com/HowProgrammingWorks/Collections)
 - [Множество / Set](https://github.com/HowProgrammingWorks/Set)
 - [Ключ-значение, Хешмап / Map, Key-value](https://github.com/HowProgrammingWorks/KeyValue)
-- [Список / List](https://github.com/HowProgrammingWorks/LinkedList) Односвязный, двусвязный, кольцо
+- [Список / List](https://github.com/HowProgrammingWorks/LinkedList)
 - [Дерево](https://github.com/HowProgrammingWorks/TreeNode)
 - [Граф / Graph](https://github.com/HowProgrammingWorks/DirectedGraph)
 - [Файл / File](https://github.com/HowProgrammingWorks/Files)
 - [Поток, Файловый поток / Stream, File Stream](https://github.com/HowProgrammingWorks/Streams)
 - [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)
 - [Сокет / Socket](https://github.com/HowProgrammingWorks/Socket)
-- [Дескриптор / Descriptor]
+- [Дескриптор / Descriptor](https://github.com/HowProgrammingWorks/Files)
 - [Состояние / State]
-- [Функциональный объект]
+- [Функциональный объект](https://github.com/HowProgrammingWorks/Functor)
 - [Функтор / Functor](https://github.com/HowProgrammingWorks/Functor)
-- [Аппликативный функтор]
-- [Монада]
-- [Кеш, Кеширование]
-- [Хеш, Хеширование]
+- [Аппликативный функтор](https://github.com/HowProgrammingWorks/Functor)
+- [Монада / Monad]
+- [Кэш, Кэширование / Cache]
+- [Хэш, Хэширование / Hashing]
 - [Мемоизация / Memoization](https://github.com/HowProgrammingWorks/Memoization)
 - [Примесь / Mixin](https://github.com/HowProgrammingWorks/Mixin)
 - [Декоратор / Decorator]
-- [Наследование / Inheritance]
+- [Наследование / Inheritance](https://github.com/HowProgrammingWorks/Function)
 - [Множественное наследование / Multiple Inheritance]
 - [Непрямое наследование / Indirect Inheritance]
 - [Функциональное наследование / Functional Inheritance]
 - [Генератор / Generator](https://github.com/HowProgrammingWorks/Generator)
-- [Синхронные операции]
+- [Синхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
 - [Асинхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
-- [Ввод/вывод / I/O, Input-output]
+- [Ввод/вывод / I/O, Input-output](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
 - [EventEmitter](https://github.com/HowProgrammingWorks/EventEmitter)
 - [Чеининг / Chaining](https://github.com/HowProgrammingWorks/Chaining)
 - [Сериализация / Serialization](https://github.com/HowProgrammingWorks/Serialization)
-- [Десериализация / Deserialization]
+- [Десериализация / Deserialization](https://github.com/HowProgrammingWorks/Serialization)
 - [Парсинг / Parsing]
 - [Регулярные выражения / Regular Expressions](https://github.com/HowProgrammingWorks/RegExp)
 - [Модуль, модульность](https://github.com/HowProgrammingWorks/Modularity)
-- [Слой / Layer]
-- [Зависимость / Dependency]
-- [Линтер / Linter]
+- [Слой абстракций / Abstraction Layer](https://github.com/HowProgrammingWorks/AbstractionLayers)
+- [Зависимость / Dependency](https://github.com/HowProgrammingWorks/Project)
+- [Линтер / Linter](https://github.com/HowProgrammingWorks/Tools)
 - [Декомпозиция / Decomposition]
-- [Ленивость / Lazy]
-- [Прокси / Proxy]
-- [Символ / Symbol]
+- [Ленивость / Lazy](https://github.com/HowProgrammingWorks/Lazy)
+- [Прокси / Proxy](https://github.com/HowProgrammingWorks/Proxy)
+- [Символ / Symbol](https://github.com/HowProgrammingWorks/Symbol)
+- [Обрабутка ошибок / Error handling](https://github.com/HowProgrammingWorks/Errors)
 
 ## Расширенные понятия
 
@@ -104,6 +106,9 @@
 - [Тонкий клиент]
 - [Толстый клиент]
 - [Проекция данных / Projection](https://github.com/HowProgrammingWorks/Projection)
+- [Измерение производительности / Benchmarking](https://github.com/HowProgrammingWorks/Benchmark)
+- [Интерфейс командной строки / CLI, Command Line Interface and Console](https://github.com/HowProgrammingWorks/CommandLine)
+- [Мониторинг файловой системы / File System Watching](https://github.com/HowProgrammingWorks/Files)
 
 ## Парадигмы программирования
 
@@ -114,6 +119,7 @@
 - [Функциональное программирование / Functional Programming]
 - [Логическое программирование / Logical Programming]
 - [Декларативное программирование / Declarative Programming]
+- [Программирование управляемое данными / Data-driven Programming](https://github.com/HowProgrammingWorks/DataDrivenProgramming)
 - [Асинхронное программирование / Asynchronous Programming]
 - [Реактивное программирование / Reactive Programming]
 - [Событийное программирование / Event-driven Programming](https://github.com/HowProgrammingWorks/EventDrivenProgramming)
