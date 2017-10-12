@@ -7,6 +7,7 @@
   - модель реального объекта (или множества объектов), являющаяся приближением к реальности, обобщением
   - множество свойств объекта, относящиеся к определенному его аспекту
   - [Слои абстракций / Abstraction Layer](https://github.com/HowProgrammingWorks/AbstractionLayers)
+- Парадигма программирования / Programming Paradigm
 - [Переменная / Variable](https://github.com/HowProgrammingWorks/DataTypes)
   - `let cityName = 'Beijing';`
 - [Константа / Constant](https://github.com/HowProgrammingWorks/DataTypes)
@@ -17,7 +18,9 @@
 - [Ссылочные типы / Reference](https://github.com/HowProgrammingWorks/DataTypes)
 - [Объект / Object](https://github.com/HowProgrammingWorks/DataTypes)
 - Инстанциирование / Instantiation
+  - `const rect1 = new Rectangle(-50, -50, 100, 150);`
 - Класс / Class
+  - `class Point { constructor(x, y) { this.x = x; this.y = y; } }`
 - Прототип / Protorype
 - [Cтруктуры данных](https://github.com/HowProgrammingWorks/DataStructures)
 - Массив / Array
@@ -35,20 +38,26 @@
     - Лябмда выражение, Функция-стрелка / Lambda expression, Arrow function
       - `const max = (a, b) => (a + b);`
   - [Чистая функция / Pure Function](https://github.com/HowProgrammingWorks/Function)
+  - [Замыкание / Closure](https://github.com/HowProgrammingWorks/Closure)
+    - `const add = a => b => a + b;`
+    - `const hash = (data = {}) => (key, value) => (data[key] = value, data);`
   - [Суперпозиция / Superposition](https://github.com/HowProgrammingWorks/Composition)
     - `const expr2 = add(pow(mul(5, 8), 2), div(inc(sqrt(20)), log(2, 7)));`
   - [Композиция / Composition](https://github.com/HowProgrammingWorks/Composition)
+    - `const compose = (f1, f2) => x => f2(f1(x));`
+    - `const compose = (...funcs) => (...args) => (funcs.reduce((args, fn) => [fn(...args)], args));`
   - [Частичное применение / Partial application](https://github.com/HowProgrammingWorks/PartialApplication)
     - `const partial = (fn, x) => (...args) => fn(x, ...args);`
   - [Каррирование / Currying](https://github.com/HowProgrammingWorks/PartialApplication)
     - `const result = curry((a, b, c) => (a + b + c))(1, 2)(3);`
-  - [Побочные эффекты / Side effects](https://github.com/HowProgrammingWorks/Function)
+    - [Побочные эффекты / Side effects](https://github.com/HowProgrammingWorks/Function)
   - [Функция высшего порядка / Higher-order Function](https://github.com/HowProgrammingWorks/HigherOrderFunction)
     - Если функция только в аргументах, то это колбек
     - Если функция только в результате, то это фабрика функций
     - Если функция в аргументах и в результате, то это обертка
-  - [Функциональное наследование / Functional Inheritance]
+  - Функциональное наследование / Functional Inheritance
 - [Метод / Method](https://github.com/HowProgrammingWorks/Function)
+  - `{ a: 10, b: 10, sum() { return this.a + this.b; } }`
 - [Контекст](https://github.com/HowProgrammingWorks/Function)
 - [Область видимости / Scope](https://github.com/HowProgrammingWorks/Function)
 - [Обертка / Wrapper](https://github.com/HowProgrammingWorks/Wrapper)
@@ -56,7 +65,6 @@
 - Прикладной интерфейс / Application Interface, API
 - Синглтон / Singleton
 - [Функция обратного вызова, колбек / Callback](https://github.com/HowProgrammingWorks/Callbacks)
-- [Замыкание / Closure](https://github.com/HowProgrammingWorks/Closure)
 - [Событие / Event](https://github.com/HowProgrammingWorks/Callbacks)
 - [Лисенер / Listener](https://github.com/HowProgrammingWorks/Callbacks)
 - [Дифер / Deferred](https://github.com/HowProgrammingWorks/Callbacks)
@@ -86,7 +94,7 @@
     - Рекурсивное замыкание / Recursive closure
     - Объект функционального типа, хранящий в себе защищенное значение и позволяющий отобразить это значение в другой функтор через функцию
   - [Аппликативный функтор](https://github.com/HowProgrammingWorks/Functor)
-  - [Монада / Monad]
+  - Монада / Monad
 - [Мемоизация / Memoization](https://github.com/HowProgrammingWorks/Memoization)
 - [Примесь / Mixin](https://github.com/HowProgrammingWorks/Mixin)
   - Добавление свойств, методов или поведения к объекту после его инстанциирования (создания)
@@ -112,6 +120,7 @@
 - [Прокси / Proxy](https://github.com/HowProgrammingWorks/Proxy)
 - [Символ / Symbol](https://github.com/HowProgrammingWorks/Symbol)
 - [Обработка ошибок / Error handling](https://github.com/HowProgrammingWorks/Errors)
+- [Сборка мусора / Garbage Collection](https://github.com/HowProgrammingWorks/GarbageCollection)
 
 ## Расширенные понятия
 
@@ -135,6 +144,8 @@
 - [Измерение производительности / Benchmarking](https://github.com/HowProgrammingWorks/Benchmark)
 - [Интерфейс командной строки / CLI, Command Line Interface and Console](https://github.com/HowProgrammingWorks/CommandLine)
 - [Мониторинг файловой системы / File System Watching](https://github.com/HowProgrammingWorks/Files)
+- Метаданные
+- Протокол
 
 ## Парадигмы программирования
 
