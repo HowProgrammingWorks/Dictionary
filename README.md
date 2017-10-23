@@ -115,25 +115,61 @@
   - Функциональное наследование / Functional Inheritance
 - [Метод / Method](https://github.com/HowProgrammingWorks/Function)
   - `{ a: 10, b: 10, sum() { return this.a + this.b; } }`
+  - Функция, связанная с объектным контекстом или программным интерфейсом
 - [Контекст](https://github.com/HowProgrammingWorks/Function)
 - [Область видимости / Scope](https://github.com/HowProgrammingWorks/Function)
 - [Обертка / Wrapper](https://github.com/HowProgrammingWorks/Wrapper)
+  - функция, которая оборачивает другую функцию (иногда объект, интерфейс или
+  функциональный объект), добавляя ему дополнительное поведение
+  - можно обернуть целый API интерфейс и даже асинхронную функцию вместе с
+  колбеками (если известен контракт)
 - Интерфейс / Interface
-- Прикладной интерфейс / Application Interface, API
-- Синглтон / Singleton
+  - Набор методов (функций) объединенных или общим объектным контекстом или
+  применением к структурам данных одной предметной области т.е. смыслом (API)
+  - Способ спецификации контракта, по которому связаны программные компоненты
+  - Набор методов с их именами, аргументами и типами аргументов
+- Программный интерфейс / Application Interface, API
+  - Интерфейс программных компонентов: модулей, слоев абстракции, приложений
+- [Синглтон / Singleton](https://github.com/HowProgrammingWorks/Singleton)
+  - Шаблон проектирования, предполагающий, что в одном пространстве имен
+  (процессе, приложении, базе данных) будет только один экземпляр класса
+  (или просто один подобный объект) к которому можно обратиться по определенному
+  (известному) имени
 - [Функция обратного вызова, колбек / Callback](https://github.com/HowProgrammingWorks/Callbacks)
-- [Событие / Event](https://github.com/HowProgrammingWorks/Callbacks)
-- [Лисенер / Listener](https://github.com/HowProgrammingWorks/Callbacks)
+  - Функция передаваемая в качестве аргумента в другую функцию (или метод)
+  для того, чтобы быть вызванной для возврата значения, ошибки или уведомления
+  - Функции обратного вызова имеют подтипы:
+    - Один раз вызываемые (чаще всего)
+    - [Событие / Event](https://github.com/HowProgrammingWorks/Callbacks)
+    - [Лисенер / Listener](https://github.com/HowProgrammingWorks/Callbacks)
 - [Дифер / Deferred](https://github.com/HowProgrammingWorks/Callbacks)
 - [Промис / Promise](https://github.com/HowProgrammingWorks/Promise)
 - [Фьючер / Future](https://github.com/HowProgrammingWorks/Callbacks)
 - [Итерирование / Iteration](https://github.com/HowProgrammingWorks/Iteration)
+  - Многократное повторение одного блока кода или одной функции над различными
+  данными: элементами массивов, множдеств, списков, коллекций и различными
+  значениями переменной цикла
 - [Итератор / Iterator](https://github.com/HowProgrammingWorks/Iteration)
+  - Интерфейс доступа к элементам коллекции: массива, множества, списка
 - [Цикл / Loop](https://github.com/HowProgrammingWorks/Iteration)
+  - Многократное исполнение блока операторов
 - [Условие / Conditional statements](https://github.com/HowProgrammingWorks/Conditional)
+  - Синтаксическая конструкция, позволяющая выполнить разные действия или
+  возвращающая разные значения (тернарный оператор) в зависимости от логического
+  выражения (возвращающего true или false)
 - [Строка / String](https://github.com/HowProgrammingWorks/String)
+  - Последовательность символов (в большинстве языков к каждому символу можно
+  обратиться через синтаксис доступа к элементам массива, например, квадратные
+  скобки)
 - [Коллекция / Collection](https://github.com/HowProgrammingWorks/Collections)
+  - Структура данных, служащая для хранения набора значений и предоставляющая
+  доступ к ним по индексам или ключам
 - [Множество / Set](https://github.com/HowProgrammingWorks/Set)
+  - Структура данных, реализующая математическое "множество"
+  - Структура данных, служащая для хранения одногодного набора значений, которые
+  не имеют индексов или ключей (но внутри структуры данных они должны иметь
+  порядок, например, индекс в массиве, однако, множество абстрагирует нас от
+  этой особенности реализации)
 - [Ключ-значение, Хешмап / Map, Key-value](https://github.com/HowProgrammingWorks/KeyValue)
 - [Список / List](https://github.com/HowProgrammingWorks/LinkedList)
 - [Дерево](https://github.com/HowProgrammingWorks/TreeNode)
