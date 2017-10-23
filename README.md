@@ -44,11 +44,11 @@
   - `const rect = { a: { x: -50, y: -50}, b: { x: 100, y: 150 } };`
   - `const cities = new Array(1000);`
   - `const cities = ['Tehran', 'Kiev', 'Yalta', 'Beijing', 'Potsdam', 'London'];`
-- Класс / Class
+- Класс / Class *
   - программная абстракция, обобщающая свойства и методы, состояние и поведение
   своих экземпляров
   - `class Point { constructor(x, y) { this.x = x; this.y = y; } }`
-- Прототип / Protorype
+- Прототип / Protorype *
   - специальный объект, на который ссылаются его экземпляры, и свойства
   которого становятся видны у наследников, если эти свойства не переопределены
   у наследников (формируется цепочка прототипов, по которой последовательно
@@ -67,13 +67,15 @@
     - Обобщенное определение: выражение или блок операторов имеющий имя или
     анонимный, преобразующий аргументы в результаты или изменяющий состояние
     контекстов или объектов
+  - [Контекст](https://github.com/HowProgrammingWorks/Function)
+  - [Область видимости / Scope](https://github.com/HowProgrammingWorks/Function)
   - Объявление функции / Function definition
     - `function max(a, b) { return a + b; }`
   - Функциональное выражение / Function expression
     - Функциональное выражение с именованной функцией / Named function expression
       - `const max = function max(a, b) { return a + b; };`
     - Анонимное функциональное выражение / Anonymous function expression
-     - `const max = function(a, b) { return a + b; };`
+      - `const max = function(a, b) { return a + b; };`
     - Лямбда функция / Lambda function
       - `const max = (a, b) => { return a + b; };`
     - Лябмда выражение, Функция-стрелка / Lambda expression, Arrow function
@@ -107,17 +109,18 @@
     - `const partial = (fn, x) => (...args) => fn(x, ...args);`
   - [Каррирование / Currying](https://github.com/HowProgrammingWorks/PartialApplication)
     - `const result = curry((a, b, c) => (a + b + c))(1, 2)(3);`
-    - [Побочные эффекты / Side effects](https://github.com/HowProgrammingWorks/Function)
+  - [Побочные эффекты / Side effects](https://github.com/HowProgrammingWorks/Function)
   - [Функция высшего порядка / Higher-order Function](https://github.com/HowProgrammingWorks/HigherOrderFunction)
     - Если функция только в аргументах, то это колбек
     - Если функция только в результате, то это фабрика функций
+      - !!! Если в аргументах f, результат f, но не обертка
     - Если функция в аргументах и в результате, то это обертка
+    - !!! фабрика конструкторов
   - Функциональное наследование / Functional Inheritance
+    - При помощи: замыканий, ч.п., какрирования, лямбд
 - [Метод / Method](https://github.com/HowProgrammingWorks/Function)
   - `{ a: 10, b: 10, sum() { return this.a + this.b; } }`
   - Функция, связанная с объектным контекстом или программным интерфейсом
-- [Контекст](https://github.com/HowProgrammingWorks/Function)
-- [Область видимости / Scope](https://github.com/HowProgrammingWorks/Function)
 - [Обертка / Wrapper](https://github.com/HowProgrammingWorks/Wrapper)
   - функция, которая оборачивает другую функцию (иногда объект, интерфейс или
   функциональный объект), добавляя ему дополнительное поведение
@@ -130,7 +133,7 @@
   - Набор методов с их именами, аргументами и типами аргументов
 - Программный интерфейс / Application Interface, API
   - Интерфейс программных компонентов: модулей, слоев абстракции, приложений
-- [Синглтон / Singleton](https://github.com/HowProgrammingWorks/Singleton)
+- [Синглтон / Singleton](https://github.com/HowProgrammingWorks/Singleton) *
   - Шаблон проектирования, предполагающий, что в одном пространстве имен
   (процессе, приложении, базе данных) будет только один экземпляр класса
   (или просто один подобный объект) к которому можно обратиться по определенному
@@ -142,9 +145,6 @@
     - Один раз вызываемые (чаще всего)
     - [Событие / Event](https://github.com/HowProgrammingWorks/Callbacks)
     - [Лисенер / Listener](https://github.com/HowProgrammingWorks/Callbacks)
-- [Дифер / Deferred](https://github.com/HowProgrammingWorks/Callbacks)
-- [Промис / Promise](https://github.com/HowProgrammingWorks/Promise)
-- [Фьючер / Future](https://github.com/HowProgrammingWorks/Callbacks)
 - [Итерирование / Iteration](https://github.com/HowProgrammingWorks/Iteration)
   - Многократное повторение одного блока кода или одной функции над различными
   данными: элементами массивов, множдеств, списков, коллекций и различными
@@ -161,45 +161,45 @@
   - Последовательность символов (в большинстве языков к каждому символу можно
   обратиться через синтаксис доступа к элементам массива, например, квадратные
   скобки)
-- [Коллекция / Collection](https://github.com/HowProgrammingWorks/Collections)
+- [Коллекция / Collection](https://github.com/HowProgrammingWorks/Collections) *
   - Структура данных, служащая для хранения набора значений и предоставляющая
   доступ к ним по индексам или ключам
-- [Множество / Set](https://github.com/HowProgrammingWorks/Set)
+- [Множество / Set](https://github.com/HowProgrammingWorks/Set) *
   - Структура данных, реализующая математическое "множество"
   - Структура данных, служащая для хранения одногодного набора значений, которые
   не имеют индексов или ключей (но внутри структуры данных они должны иметь
   порядок, например, индекс в массиве, однако, множество абстрагирует нас от
   этой особенности реализации)
 - [Ключ-значение, Хешмап / Map, Key-value](https://github.com/HowProgrammingWorks/KeyValue)
-- [Список / List](https://github.com/HowProgrammingWorks/LinkedList)
-- [Дерево](https://github.com/HowProgrammingWorks/TreeNode)
-- [Граф / Graph](https://github.com/HowProgrammingWorks/DirectedGraph)
-- [Файл / File](https://github.com/HowProgrammingWorks/Files)
-- [Поток, Файловый поток / Stream, File Stream](https://github.com/HowProgrammingWorks/Streams)
-- [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)
-- [Сокет / Socket](https://github.com/HowProgrammingWorks/Socket)
-- [Дескриптор / Descriptor](https://github.com/HowProgrammingWorks/Files)
-- Состояние / State
-- Кэш, Кэширование / Cache
-- Хэш, Хэширование / Hashing
+- [Список / List](https://github.com/HowProgrammingWorks/LinkedList) *
+- [Дерево](https://github.com/HowProgrammingWorks/TreeNode) *
+- [Граф / Graph](https://github.com/HowProgrammingWorks/DirectedGraph) *
+- [Файл / File](https://github.com/HowProgrammingWorks/Files) *
+- [Поток, Файловый поток / Stream, File Stream](https://github.com/HowProgrammingWorks/Streams) *
+- [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers) *
+- [Сокет / Socket](https://github.com/HowProgrammingWorks/Socket) *
+- [Дескриптор / Descriptor](https://github.com/HowProgrammingWorks/Files) *
+- Состояние / State *
+- Кэш, Кэширование / Cache *
+- Хэш, Хэширование / Hashing *
 - [Функциональный объект](https://github.com/HowProgrammingWorks/Functor)
   - [Функтор / Functor](https://github.com/HowProgrammingWorks/Functor)
     - Рекурсивное замыкание / Recursive closure
     - Объект функционального типа, хранящий в себе защищенное значение и
     позволяющий отобразить это значение в другой функтор через функцию
-  - [Аппликативный функтор](https://github.com/HowProgrammingWorks/Functor)
-  - Монада / Monad
-- [Мемоизация / Memoization](https://github.com/HowProgrammingWorks/Memoization)
-- [Примесь / Mixin](https://github.com/HowProgrammingWorks/Mixin)
+  - [Аппликативный функтор](https://github.com/HowProgrammingWorks/Functor) *
+  - Монада / Monad *
+- [Мемоизация / Memoization](https://github.com/HowProgrammingWorks/Memoization) *
+- [Примесь / Mixin](https://github.com/HowProgrammingWorks/Mixin) *
   - Добавление свойств, методов или поведения к объекту после его
   инстанциирования (создания)
-- Декоратор / Decorator
-- [Наследование / Inheritance](https://github.com/HowProgrammingWorks/Function)
-- Множественное наследование / Multiple Inheritance
-- Непрямое наследование / Indirect Inheritance
-- [Генератор / Generator](https://github.com/HowProgrammingWorks/Generator)
-- [Синхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
-- [Асинхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
+- Декоратор / Decorator *
+- [Наследование / Inheritance](https://github.com/HowProgrammingWorks/Function) *
+- Множественное наследование / Multiple Inheritance *
+- Непрямое наследование / Indirect Inheritance *
+- [Генератор / Generator](https://github.com/HowProgrammingWorks/Generator) *
+- [Синхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming) *
+- [Асинхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming) *
 - [Ввод/вывод / I/O, Input-output](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
   - операции, выходящие за рамки CPU и RAM (арифметико-логического устройства
   и памяти), т.е. операции с устройствами ввода вывода: сеть, диск, порты,
@@ -211,24 +211,24 @@
 - [Чеининг / Chaining](https://github.com/HowProgrammingWorks/Chaining)
   - цепочный синтаксис вызова функций `total(april)(may)(july)` или методов
   `array.filter(f1).reduce(f2)`
-- [Сериализация / Serialization](https://github.com/HowProgrammingWorks/Serialization)
+- [Сериализация / Serialization](https://github.com/HowProgrammingWorks/Serialization) *
   - преобразование структуры данных (развернутую в памяти) в битовую
   последовательность, обычно в последовательность байтов: бинарная сериализация
   или в строку - текстовая сериализация
-- [Десериализация / Deserialization](https://github.com/HowProgrammingWorks/Serialization)
+- [Десериализация / Deserialization](https://github.com/HowProgrammingWorks/Serialization) *
   - операция обратная сериализации, т.е. восстановление структуры данных
   из последовательности битов (чаще байтов или строки)
 - Парсинг / Parsing
   - синтаксический анализ текста, результатом чего может явзяться:
-    - для формальной граматики - AST-дерево
+    - для формальной граматики - AST-дерево *
     - для слабоструктурированного документа - структура данных, имеющая
     четкую структуру, в которую частично перенесены данные из слабой структуры
     - для других естественных или искуственных языков - информационные модели,
     им соответствующие
-- [Регулярные выражения / Regular Expressions](https://github.com/HowProgrammingWorks/RegExp)
+- [Регулярные выражения / Regular Expressions](https://github.com/HowProgrammingWorks/RegExp) *
   - синтаксическая конструкция, паттерн, формальный язык, определяющий
   порядок парсинга другой синтаксической конструкции
-- [Модуль, модульность](https://github.com/HowProgrammingWorks/Modularity)
+- [Модуль, модульность](https://github.com/HowProgrammingWorks/Modularity) *
   - целостный, функционально полный, независимый компонент программной системы
   имеющий имя, интерфейс, реализацию
   - модульность повышает переиспользование кода, упрощает интеграцию компонентов,
@@ -238,7 +238,7 @@
   платформы и/или фреймворка; модули должны быть слабо связаны, взаимодействовать
   друг с другом только через внешнее API (предпочтительно) или шину событий
   (если система построена на событийной модели, подписке или модели акторов)
-- [Зависимость / Dependency](https://github.com/HowProgrammingWorks/Project)
+- [Зависимость / Dependency](https://github.com/HowProgrammingWorks/Project) *
   - связанность программных компонентов, при которой один компонент (зависимый)
   "знает" другой; это значит, что в нем помещен вызов метода (реализация которого
   содержится в другом) или он слушает событие, которое генерирует другой или
@@ -252,14 +252,17 @@
   при этом, каждая часть будет решать подзадачу и появится часть кода, которая
   определяет порядок связи всех частей (композицию)
 - [Ленивость / Lazy](https://github.com/HowProgrammingWorks/Lazy)
-- [Прокси / Proxy](https://github.com/HowProgrammingWorks/Proxy)
-- [Символ / Symbol](https://github.com/HowProgrammingWorks/Symbol)
 - [Обработка ошибок / Error handling](https://github.com/HowProgrammingWorks/Errors)
-- [Сборка мусора / Garbage Collection](https://github.com/HowProgrammingWorks/GarbageCollection)
 - Фабрика / Factory
 
 ## Расширенные понятия
 
+- [Сборка мусора / Garbage Collection](https://github.com/HowProgrammingWorks/GarbageCollection)
+- [Прокси / Proxy](https://github.com/HowProgrammingWorks/Proxy)
+- [Символ / Symbol](https://github.com/HowProgrammingWorks/Symbol)
+- [Дифер / Deferred](https://github.com/HowProgrammingWorks/Callbacks)
+- [Промис / Promise](https://github.com/HowProgrammingWorks/Promise)
+- [Фьючер / Future](https://github.com/HowProgrammingWorks/Callbacks)
 - Неизменяемые данные / Immutable Data
 - Изменяемые данные / Mutable Data
 - Интроспекция / Introspection
