@@ -78,7 +78,7 @@
   - Функциональное выражение / Function expression
     - функциональное выражение с именованной функцией / Named function expression
       - `const max = function max(a, b) { return a + b; };`
-    - фнонимное функциональное выражение / Anonymous function expression
+    - анонимное функциональное выражение / Anonymous function expression
       - `const max = function(a, b) { return a + b; };`
     - лямбда функция / Lambda function
       - `const max = (a, b) => { return a + b; };`
