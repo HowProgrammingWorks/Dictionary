@@ -44,7 +44,7 @@
   - `const rect = { a: { x: -50, y: -50}, b: { x: 100, y: 150 } };`
   - `const cities = new Array(1000);`
   - `const cities = ['Tehran', 'Kiev', 'Yalta', 'Beijing', 'Potsdam', 'London'];`
-- Класс / Class *
+- Класс / Class
   - программная абстракция, обобщающая свойства и методы, состояние и поведение
   своих экземпляров
   - `class Point { constructor(x, y) { this.x = x; this.y = y; } }`
@@ -55,9 +55,9 @@
   ищутся свойства, пока не будут найдены или пока не будет достигнут конец)
   - шаблон, который клонируется во время инстанциирования
 - Флаг / Flag
-  - `let flagName = false;`
   - Логическое значение, определяющее состояние чего-либо, например, признак
   закрытия соединения, признак завершения поиска по структуре данных и т.д.
+  - `let flagName = false;`
 - [Cтруктуры данных](https://github.com/HowProgrammingWorks/DataStructures)
 - Массив / Array
   - коллекция эллементов, доступ к которым осуществляется по индексам
@@ -123,8 +123,8 @@
   - Функциональное наследование / Functional Inheritance
     - при помощи: замыканий, ч.п., какрирования, лямбд
 - [Метод / Method](https://github.com/HowProgrammingWorks/Function)
-  - `{ a: 10, b: 10, sum() { return this.a + this.b; } }`
   - функция, связанная с объектным контекстом или программным интерфейсом
+  - `{ a: 10, b: 10, sum() { return this.a + this.b; } }`
 - [Обертка / Wrapper](https://github.com/HowProgrammingWorks/Wrapper)
   - функция, которая оборачивает другую функцию (иногда объект, интерфейс или
   функциональный объект), добавляя ему дополнительное поведение
@@ -137,7 +137,7 @@
   - Набор методов с их именами, аргументами и типами аргументов
 - Программный интерфейс / Application Interface, API
   - интерфейс программных компонентов: модулей, слоев абстракции, приложений
-- [Синглтон / Singleton](https://github.com/HowProgrammingWorks/Singleton) *
+- [Синглтон / Singleton](https://github.com/HowProgrammingWorks/Singleton)
   - шаблон проектирования, предполагающий, что в одном пространстве имен
   (процессе, приложении, базе данных) будет только один экземпляр класса
   (или просто один подобный объект) к которому можно обратиться по определенному
@@ -165,7 +165,7 @@
   - последовательность символов (в большинстве языков к каждому символу можно
   обратиться через синтаксис доступа к элементам массива, например, квадратные
   скобки)
-- [Коллекция / Collection](https://github.com/HowProgrammingWorks/Collections) *
+- [Коллекция / Collection](https://github.com/HowProgrammingWorks/Collections)
   - структура данных, служащая для хранения набора значений и предоставляющая
   доступ к ним по индексам или ключам
 - [Множество / Set](https://github.com/HowProgrammingWorks/Set)
@@ -197,12 +197,15 @@
   - [Аппликативный функтор](https://github.com/HowProgrammingWorks/Functor) *
   - Монада / Monad *
 - [Мемоизация / Memoization](https://github.com/HowProgrammingWorks/Memoization)
-  - сохранение результатов выполнения функций для предотвращения повторных
-  вычислений
-- [Примесь / Mixin](https://github.com/HowProgrammingWorks/Mixin) *
+  - обертка функции, сохраняющая результаты выполнения функции для
+  предотвращения повторных вычислений
+- [Примесь / Mixin](https://github.com/HowProgrammingWorks/Mixin)
   - добавление свойств, методов или поведения к объекту после его
   инстанциирования (создания)
-- Декоратор / Decorator *
+  - `Object.assign(target, { field1, field2 }, { field3 });`
+- Декоратор / Decorator
+  - шаблон оборачивания объектов или функций для добавлением новой
+  функциональности при помощи специального синтаксиса
 - [Наследование / Inheritance](https://github.com/HowProgrammingWorks/Inheritance)
 - [Множественное наследование / Multiple Inheritance](https://github.com/HowProgrammingWorks/Inheritance)
 - [Непрямое наследование / Indirect Inheritance](https://github.com/HowProgrammingWorks/Inheritance)
@@ -263,6 +266,9 @@
 - [Ленивость / Lazy](https://github.com/HowProgrammingWorks/Lazy)
 - [Обработка ошибок / Error handling](https://github.com/HowProgrammingWorks/Errors)
 - [Фабрика / Factory](https://github.com/HowProgrammingWorks/Factory)
+  - функция или метод для инстациирования объектов, функций, структур данных и
+  любых других программных абстракций, например, экземпляров класса в обход
+  конструктора или функциональных объектов
 
 ## Расширенные понятия
 
