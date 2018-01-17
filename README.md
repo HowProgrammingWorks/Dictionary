@@ -182,14 +182,27 @@
 - [Граф / Graph](https://github.com/HowProgrammingWorks/DirectedGraph) *
 - [Файл / File](https://github.com/HowProgrammingWorks/Files) *
 - [Поток, Файловый поток / Stream, File Stream](https://github.com/HowProgrammingWorks/Streams) *
-- [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers) *
-- [Сокет / Socket](https://github.com/HowProgrammingWorks/Socket) *
-- [Дескриптор / Descriptor](https://github.com/HowProgrammingWorks/Files) *
+- [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)
+  - область памяти для хранения данных (обычно для операций ввода/вывода)
+- [Сокет / Socket](https://github.com/HowProgrammingWorks/Socket)
+  - программный интерфейс (или абстракция) для обмена данными между процессами
+- [Дескриптор / Handle](https://github.com/HowProgrammingWorks/Files)
+  - уникаьный идентификатор программного объекта (чаще всего объекта операционной
+  системы): файла, сокета, окна, таймера, оединения и т.д.
 - Состояние / State
   - совокупность данных программного компонента (переменных и структур данных),
   определяющие его поведение и реакцию на операции с ним
-- Кэш, Кэширование / Cache *
-- Хэш, Хэширование / Hashing *
+- Кэш, Кэширование / Cache
+  - место временного хранения данных (буфер, коллекция, область памяти) для
+  быстрого доступа и оптимизации
+  - возможно кеширование операций чтения, вычислений, операций записи (когда
+  запись не может быть поизведена достаточно быстро) или упрезжающее чтение в
+  буфер (когда можно определить, какие данные будут запрошены с наибольшей
+  вероятностью)
+- Хэширование / Hashing
+  - преобразование данных произвольной длины (буфера, массива, объекта или
+  структуры данных) в последовательность битов определенной длины (хеш) при
+  помощи хеш-функции (при изменении 1 бита в данных хеш меняется существенно)
 - [Функциональный объект](https://github.com/HowProgrammingWorks/Functor)
   - [Функтор / Functor](https://github.com/HowProgrammingWorks/Functor)
     - функтор - это рекурсивное замыкание / recursive closure
