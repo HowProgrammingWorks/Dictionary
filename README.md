@@ -58,7 +58,6 @@
   - Логическое значение, определяющее состояние чего-либо, например, признак
   закрытия соединения, признак завершения поиска по структуре данных и т.д.
   - `let flagName = false;`
-- [Cтруктуры данных](https://github.com/HowProgrammingWorks/DataStructures)
 - Массив / Array
   - коллекция эллементов, доступ к которым осуществляется по индексам
   - `const cities = ['Tehran', 'Yalta', 'Potsdam'];`
@@ -166,24 +165,8 @@
   - последовательность символов (в большинстве языков к каждому символу можно
   обратиться через синтаксис доступа к элементам массива, например, квадратные
   скобки)
-- [Коллекция / Collection](https://github.com/HowProgrammingWorks/Collections)
-  - структура данных, служащая для хранения набора значений и предоставляющая
-  доступ к ним по индексам или ключам
-- [Множество / Set](https://github.com/HowProgrammingWorks/Set)
-  - структура данных, реализующая математическое "множество"
-  - структура данных, служащая для хранения однородного набора значений, которые
-  не имеют индексов или ключей (но внутри структуры данных они должны иметь
-  порядок, например, индекс в массиве, однако, множество абстрагирует нас от
-  этой особенности реализации)
-- [Ключ-значение, Хешмап / Map, Key-value](https://github.com/HowProgrammingWorks/KeyValue)
-  - [класс `Map`](https://github.com/HowProgrammingWorks/Map)
-- [Список / List](https://github.com/HowProgrammingWorks/LinkedList) *
-- [Дерево](https://github.com/HowProgrammingWorks/TreeNode) *
-- [Граф / Graph](https://github.com/HowProgrammingWorks/DirectedGraph) *
 - [Файл / File](https://github.com/HowProgrammingWorks/Files) *
 - [Поток, Файловый поток / Stream, File Stream](https://github.com/HowProgrammingWorks/Streams) *
-- [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)
-  - область памяти для хранения данных (обычно для операций ввода/вывода)
 - [Сокет / Socket](https://github.com/HowProgrammingWorks/Socket)
   - программный интерфейс (или абстракция) для обмена данными между процессами
 - [Дескриптор / Handle](https://github.com/HowProgrammingWorks/Files)
@@ -288,6 +271,36 @@
   структур данных и других программных абстракций) из которого мы можем их брать
   инициализированные экземпляры (вместо инстанциирования новых) и отдавать их
   после использования
+
+## Структуры данных
+
+- [Запись / Record](https://github.com/HowProgrammingWorks/DataStructures)
+- Массив / Array
+- [Список / List](https://github.com/HowProgrammingWorks/LinkedList)
+  - Односвязный, двусвязный, кольцевой, развернутый список (список массивов)
+  - Реализация на объектах, массивах и замыканиях
+  - Реализация на синтаксисе прототипов, классов и фабрик
+  - Реализация на замыканиях и функциональных объектах
+  - Реализация на одной и двух категориях (только узел или список и узел)
+- Стек, дек, очередь
+- [Дерево](https://github.com/HowProgrammingWorks/TreeNode)
+- Двоичное дерево, красно-черное дерево
+- Куча
+- [Граф / Graph](https://github.com/HowProgrammingWorks/DirectedGraph)
+- [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)
+  - область памяти для хранения данных (обычно для операций ввода/вывода)
+- Типизированные массивы
+- [Коллекция / Collection](https://github.com/HowProgrammingWorks/Collections)
+  - структура данных, служащая для хранения набора значений и предоставляющая
+  доступ к ним по индексам или ключам
+- [Множество / Set](https://github.com/HowProgrammingWorks/Set)
+  - структура данных, реализующая математическое "множество"
+  - структура данных, служащая для хранения однородного набора значений, которые
+  не имеют индексов или ключей (но внутри структуры данных они должны иметь
+  порядок, например, индекс в массиве, однако, множество абстрагирует нас от
+  этой особенности реализации)
+- [Ключ-значение, Хешмап / Map, Key-value](https://github.com/HowProgrammingWorks/KeyValue)
+  - [класс `Map`](https://github.com/HowProgrammingWorks/Map)
 
 ## Расширенные понятия
 
