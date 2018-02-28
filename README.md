@@ -168,8 +168,8 @@
   - последовательность символов (в большинстве языков к каждому символу можно
   обратиться через синтаксис доступа к элементам массива, например, квадратные
   скобки)
-- [Файл / File](https://github.com/HowProgrammingWorks/Files) *
-- [Поток, Файловый поток / Stream, File Stream](https://github.com/HowProgrammingWorks/Streams) *
+- [Файл / File](https://github.com/HowProgrammingWorks/Files)
+- [Поток, Файловый поток / Stream, File Stream](https://github.com/HowProgrammingWorks/Streams)
 - [Сокет / Socket](https://github.com/HowProgrammingWorks/Socket)
   - программный интерфейс (или абстракция) для обмена данными между процессами
 - [Дескриптор / Handle](https://github.com/HowProgrammingWorks/Files)
@@ -194,8 +194,8 @@
     - функтор - это рекурсивное замыкание / recursive closure
     - объект функционального типа, хранящий в себе защищенное значение и
     позволяющий отобразить это значение в другой функтор через функцию
-  - [Аппликативный функтор](https://github.com/HowProgrammingWorks/Functor) *
-  - Монада / Monad *
+  - [Аппликативный функтор](https://github.com/HowProgrammingWorks/Functor)
+  - Монада / Monad
 - [Мемоизация / Memoization](https://github.com/HowProgrammingWorks/Memoization)
   - обертка функции, сохраняющая результаты выполнения функции для
   предотвращения повторных вычислений
@@ -209,9 +209,9 @@
 - [Наследование / Inheritance](https://github.com/HowProgrammingWorks/Inheritance)
 - [Множественное наследование / Multiple Inheritance](https://github.com/HowProgrammingWorks/Inheritance)
 - [Непрямое наследование / Indirect Inheritance](https://github.com/HowProgrammingWorks/Inheritance)
-- [Генератор / Generator](https://github.com/HowProgrammingWorks/Generator) *
-- [Синхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming) *
-- [Асинхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming) *
+- [Генератор / Generator](https://github.com/HowProgrammingWorks/Generator)
+- [Синхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
+- [Асинхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
 - [Ввод/вывод / I/O, Input-output](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
   - операции, выходящие за рамки CPU и RAM (арифметико-логического устройства
   и памяти), т.е. операции с устройствами ввода вывода: сеть, диск, порты,
@@ -223,24 +223,24 @@
 - [Чеининг / Chaining](https://github.com/HowProgrammingWorks/Chaining)
   - цепочный синтаксис вызова функций `total(april)(may)(july)` или методов
   `array.filter(f1).reduce(f2)`
-- [Сериализация / Serialization](https://github.com/HowProgrammingWorks/Serialization) *
+- [Сериализация / Serialization](https://github.com/HowProgrammingWorks/Serialization)
   - преобразование структуры данных (развернутой в памяти) в битовую
   последовательность, обычно в последовательность байтов (бинарная сериализация)
   или в строку (текстовая сериализация)
-- [Десериализация / Deserialization](https://github.com/HowProgrammingWorks/Serialization) *
+- [Десериализация / Deserialization](https://github.com/HowProgrammingWorks/Serialization)
   - операция, обратная сериализации, т.е. восстановление структуры данных
   из последовательности битов (чаще байтов или строки)
 - Парсинг / Parsing
   - синтаксический анализ текста, результатом чего может являться:
-    - для формальной граматики - AST-дерево *
+    - для формальной граматики - AST-дерево
     - для слабоструктурированного документа - структура данных, имеющая
     четкую структуру, в которую частично перенесены данные из слабой структуры
     - для других естественных или искуственных языков - информационные модели,
     им соответствующие
-- [Регулярные выражения / Regular Expressions](https://github.com/HowProgrammingWorks/RegExp) *
+- [Регулярные выражения / Regular Expressions](https://github.com/HowProgrammingWorks/RegExp)
   - синтаксическая конструкция, паттерн, формальный язык, определяющий
   порядок парсинга другой синтаксической конструкции
-- [Модуль, модульность](https://github.com/HowProgrammingWorks/Modularity) *
+- [Модуль, модульность](https://github.com/HowProgrammingWorks/Modularity)
   - целостный, функционально полный, независимый компонент программной системы
   имеющий имя, интерфейс, реализацию
   - модульность повышает переиспользование кода, упрощает интеграцию компонентов,
@@ -250,7 +250,7 @@
   платформы и/или фреймворка; модули должны быть слабо связаны, взаимодействовать
   друг с другом только через внешнее API (предпочтительно) или шину событий
   (если система построена на событийной модели, подписке или модели акторов)
-- [Зависимость / Dependency](https://github.com/HowProgrammingWorks/Project) *
+- [Зависимость / Dependency](https://github.com/HowProgrammingWorks/Project)
   - связанность программных компонентов, при которой один компонент (зависимый)
   "знает" другой; это значит, что в нем помещен вызов метода (реализация которого
   содержится в другом) или он слушает событие, которое генерирует другой или
@@ -269,7 +269,7 @@
   - функция или метод для инстациирования объектов, функций, структур данных и
   любых других программных абстракций, например, экземпляров класса в обход
   конструктора или функциональных объектов
-- Объектный Пул / [Object Pool](https://github.com/HowProgrammingWorks/Pool) *
+- Объектный Пул / [Object Pool](https://github.com/HowProgrammingWorks/Pool)
   - Множество заранее инстанциированных объектов (или массивов, сокетов, буферов,
   структур данных и других программных абстракций) из которого мы можем их брать
   инициализированные экземпляры (вместо инстанциирования новых) и отдавать их
@@ -285,7 +285,11 @@
   - Реализация на синтаксисе прототипов, классов и фабрик
   - Реализация на замыканиях и функциональных объектах
   - Реализация на одной и двух категориях (только узел или список и узел)
-- Стек, дек, очередь
+- [Стек, дек, очередь](https://github.com/HowProgrammingWorks/Dequeue)
+  - [Стек / Stack] - Список, работающий про принципу LIFO
+  - [Очередь / Queue] - Список, работающий про принципу FIFO
+  - [Дек / Dequeu](https://github.com/HowProgrammingWorks/Dequeue) -
+  двухсторонняя очередь (одновременно LIFO и FIFO)
 - [Дерево](https://github.com/HowProgrammingWorks/TreeNode)
 - Двоичное дерево, красно-черное дерево
 - Куча
@@ -332,9 +336,11 @@
 - [Проекция данных / Projection](https://github.com/HowProgrammingWorks/Projection)
 - [Измерение производительности / Benchmarking](https://github.com/HowProgrammingWorks/Benchmark)
 - [Интерфейс командной строки / CLI, Command Line Interface and Console](https://github.com/HowProgrammingWorks/CommandLine)
-- [Мониторинг файловой системы / File System Watching](https://github.com/HowProgrammingWorks/Files)
+- [Мониторинг файловой системы / File System Watching](https://github.com/HowProgrammingWorks/FilesystemWatch)
+- [Транзакционные объекты/Transaction](https://github.com/HowProgrammingWorks/Transaction)
 - Метаданные / Metadata
 - Протокол
+- [Динамическая загрузка модулей / Live Code Reload](https://github.com/HowProgrammingWorks/LiveReload)
 
 ## Парадигмы программирования
 
