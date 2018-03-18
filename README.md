@@ -290,8 +290,9 @@
   - [Очередь / Queue] - Список, работающий про принципу FIFO
   - [Дек / Dequeu](https://github.com/HowProgrammingWorks/Dequeue) -
   двухсторонняя очередь (одновременно LIFO и FIFO)
-- [Дерево](https://github.com/HowProgrammingWorks/TreeNode)
-- Двоичное дерево, красно-черное дерево
+- [Дерево](https://github.com/HowProgrammingWorks/Trees)
+- [Двоичное дерево](https://github.com/HowProgrammingWorks/Trees),
+поисковое дерево, красно-черное дерево
 - Куча
 - [Граф / Graph](https://github.com/HowProgrammingWorks/DirectedGraph)
 - [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)
