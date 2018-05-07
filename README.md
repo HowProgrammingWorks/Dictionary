@@ -352,6 +352,7 @@
   - [Object-oriented programming](https://github.com/HowProgrammingWorks/ObjectOrientedProgramming)
   - [Prototype-oriented programming](https://github.com/HowProgrammingWorks/PrototypeOrientedProgramming)
 - [Функциональное программирование / Functional Programming](https://github.com/HowProgrammingWorks/FunctionalProgramming)
+  - https://github.com/HowProgrammingWorks/Abstractions
 - [Логическое программирование / Logical Programming]
 - [Декларативное программирование / Declarative Programming]
 - [Программирование управляемое данными / Data-driven Programming](https://github.com/HowProgrammingWorks/DataDrivenProgramming)
