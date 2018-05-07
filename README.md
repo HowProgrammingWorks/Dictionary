@@ -274,6 +274,7 @@
   структур данных и других программных абстракций) из которого мы можем их брать
   инициализированные экземпляры (вместо инстанциирования новых) и отдавать их
   после использования
+- [Таймеры / Timers](https://github.com/HowProgrammingWorks/Timers)
 
 ## Структуры данных
 
@@ -342,6 +343,8 @@
 - Метаданные / Metadata
 - Протокол
 - [Динамическая загрузка модулей / Live Code Reload](https://github.com/HowProgrammingWorks/LiveReload)
+- Http Request (HTTP, XMLHttpRequest, fetch) https://github.com/HowProgrammingWorks/HttpRequest
+
 
 ## Парадигмы программирования
 
