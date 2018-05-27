@@ -25,15 +25,21 @@
 - [Типы данных / Data Types](https://github.com/HowProgrammingWorks/DataTypes)
   - тип - это множесво значений и операции, определенные на этом множестве
   - `[5, 'Kiev', true, { city: 'Beijing' }, a => ++a ].map(x => typeof(x));`
-- [Скалярные типы / Scalar Types](https://github.com/HowProgrammingWorks/DataTypes)
-  - примитивные типа данных, передаваемые по значению, а не по ссылке
+- Примитивные или [скалярные типы / Scalar Types](https://github.com/HowProgrammingWorks/DataTypes)
+  - примитивные типы имеют одно значение, а не несколько структурированных
+  значений и передаются по значению (копирование значения), а не по ссылке
   - например: `Number, String, Boolean`
+- [Структурные типы / Composed types](https://github.com/HowProgrammingWorks/DataTypes)
+  - композитные типы или структуры состоят из нескольких скалярных значений,
+  объедиенных в одно таким образом, чтоб над этим объединенным значением можно
+  было выполнять набор операций
+  - например: объект, массив, множество, кортеж
 - [Ссылочные типы / Reference](https://github.com/HowProgrammingWorks/DataTypes)
   - типы данных, передаваемые по ссылке, а не по значению
   - например: `Object, Function, Array`
 - [Объект / Object](https://github.com/HowProgrammingWorks/DataTypes)
   - структура данных, содержащая состояние и методы, связанные с этим состоянием
-  - объект может быть создан как литерал `{}` или экземпляр класса
+  - объект может быть создан как литерал `{}` или экземпляр класса (прототипа)
   `new ClassName()` или как экземпляр прототипа `new PrototypeConstructor()` или
   возвращен из фабрики
   - `const person = { name: 'Marcus', city: 'Roma', born: 121 };`
@@ -279,7 +285,8 @@
 ## Структуры данных
 
 - [Запись / Record](https://github.com/HowProgrammingWorks/DataStructures)
-- Массив / Array
+- [Массив / Array]()
+- [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)
 - [Список / List](https://github.com/HowProgrammingWorks/LinkedList)
   - Односвязный, двусвязный, кольцевой, развернутый список (список массивов)
   - Реализация на объектах, массивах и замыканиях
@@ -294,8 +301,9 @@
 - [Дерево](https://github.com/HowProgrammingWorks/Trees)
 - [Двоичное дерево](https://github.com/HowProgrammingWorks/Trees),
 поисковое дерево, красно-черное дерево
-- Куча
-- [Граф / Graph](https://github.com/HowProgrammingWorks/DirectedGraph)
+- Куча / Heap - древовидная струкутра данных или область пямяти для динамического
+  распределения под хранение данных
+- [Граф / Graph](https://github.com/HowProgrammingWorks/Graph)
 - [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)
   - область памяти для хранения данных (обычно для операций ввода/вывода)
 - Типизированные массивы
@@ -319,6 +327,9 @@
 - [Дифер / Deferred](https://github.com/HowProgrammingWorks/Callbacks)
 - [Промис / Promise](https://github.com/HowProgrammingWorks/Promise)
 - [Фьючер / Future](https://github.com/HowProgrammingWorks/Callbacks)
+- [Асинхрпонность при помощи async/await](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
+- [Асинхронная композиция / Asynchronous Composition](https://github.com/metarhia/metasync/blob/master/lib/composition.js)
+- [Коллекторы данных / Data and Key Collectors](https://github.com/metarhia/metasync/blob/master/lib/collector.js)
 - Неизменяемые данные / Immutable Data
 - Изменяемые данные / Mutable Data
 - Интроспекция / Introspection
@@ -332,6 +343,11 @@
 - Слой доступа к данным / Data Access Layer
 - Курсор / Cursor
 - Объектно-реляционное отображение / ORM, Object-relational Mapping
+- [Сервер / Server](https://github.com/HowProgrammingWorks/NodeServer)
+  - [Прикоеивание по IP или идентификатору сессии / IP or Session Sticky](https://github.com/HowProgrammingWorks/NodeServer/tree/master/ip-sticky)
+  - Кластеризация / Cluster mode
+    - При помощи [cluster](https://github.com/HowProgrammingWorks/NodeServer/tree/master/native-cluster)
+    - при помощи [child_process](https://github.com/HowProgrammingWorks/NodeServer/tree/master/native-cp)
 - Сервер приложений / Application Server
 - Тонкий клиент
 - Толстый клиент
@@ -340,11 +356,15 @@
 - [Интерфейс командной строки / CLI, Command Line Interface and Console](https://github.com/HowProgrammingWorks/CommandLine)
 - [Мониторинг файловой системы / File System Watching](https://github.com/HowProgrammingWorks/FilesystemWatch)
 - [Транзакционные объекты/Transaction](https://github.com/HowProgrammingWorks/Transaction)
-- Метаданные / Metadata
-- Протокол
+- [Метаданные / Metadata](https://github.com/HowProgrammingWorks/Metaprogramming)
+- [Протокол / Protocol](https://github.com/metarhia/metacom)
 - [Динамическая загрузка модулей / Live Code Reload](https://github.com/HowProgrammingWorks/LiveReload)
-- Http Request (HTTP, XMLHttpRequest, fetch) https://github.com/HowProgrammingWorks/HttpRequest
+- Http Request (HTTP, XMLHttpRequest, fetch): [примеры](https://github.com/HowProgrammingWorks/HttpRequest)
 
+## Примеры кода и комплексного использования технологий
+
+- [Живые электронные таблицы / Live Table](https://github.com/HowProgrammingWorks/LiveTable)
+- [Чат на вебсокетах / Websocket Chat](https://github.com/HowProgrammingWorks/WebsocketChat)
 
 ## Парадигмы программирования
 
@@ -355,12 +375,12 @@
   - [Object-oriented programming](https://github.com/HowProgrammingWorks/ObjectOrientedProgramming)
   - [Prototype-oriented programming](https://github.com/HowProgrammingWorks/PrototypeOrientedProgramming)
 - [Функциональное программирование / Functional Programming](https://github.com/HowProgrammingWorks/FunctionalProgramming)
-  - https://github.com/HowProgrammingWorks/Abstractions
+  - [примеры разных стилей функционального кода](https://github.com/HowProgrammingWorks/Abstractions)
 - [Логическое программирование / Logical Programming]
 - [Декларативное программирование / Declarative Programming]
 - [Программирование управляемое данными / Data-driven Programming](https://github.com/HowProgrammingWorks/DataDrivenProgramming)
 - Техники программирования
-  - [Асинхронное программирование / Asynchronous Programming]
+  - [Асинхронное программирование / Asynchronous Programming](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
   - [Реактивное программирование / Reactive Programming]
 - [Событийное программирование / Event-driven Programming](https://github.com/HowProgrammingWorks/EventDrivenProgramming)
 - [Метапрограммирование / Metaprogramming](https://github.com/HowProgrammingWorks/Metaprogramming)
