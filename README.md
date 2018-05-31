@@ -284,8 +284,8 @@
 
 ## Структуры данных
 
-- [Запись / Record](https://github.com/HowProgrammingWorks/DataStructures)
-- [Массив / Array]()
+- [Запись или структура / Struct or Record](https://github.com/HowProgrammingWorks/DataStructures)
+- [Массив / Array](https://github.com/HowProgrammingWorks/DataStructures)
 - [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)
 - [Список / List](https://github.com/HowProgrammingWorks/LinkedList)
   - Односвязный, двусвязный, кольцевой, развернутый список (список массивов)
@@ -349,8 +349,7 @@
     - При помощи [cluster](https://github.com/HowProgrammingWorks/NodeServer/tree/master/native-cluster)
     - при помощи [child_process](https://github.com/HowProgrammingWorks/NodeServer/tree/master/native-cp)
 - Сервер приложений / Application Server
-- Тонкий клиент
-- Толстый клиент
+- Тонкий клиент и толстый клиент
 - [Проекция данных / Projection](https://github.com/HowProgrammingWorks/Projection)
 - [Измерение производительности / Benchmarking](https://github.com/HowProgrammingWorks/Benchmark)
 - [Интерфейс командной строки / CLI, Command Line Interface and Console](https://github.com/HowProgrammingWorks/CommandLine)
