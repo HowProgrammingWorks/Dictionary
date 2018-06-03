@@ -296,7 +296,7 @@
 - [Стек, дек, очередь](https://github.com/HowProgrammingWorks/Dequeue)
   - [Стек / Stack] - Список, работающий про принципу LIFO
   - [Очередь / Queue] - Список, работающий про принципу FIFO
-  - [Дек / Dequeu](https://github.com/HowProgrammingWorks/Dequeue) -
+  - [Дек / Dequeue](https://github.com/HowProgrammingWorks/Dequeue) -
   двухсторонняя очередь (одновременно LIFO и FIFO)
 - [Дерево](https://github.com/HowProgrammingWorks/Trees)
 - [Двоичное дерево](https://github.com/HowProgrammingWorks/Trees),
