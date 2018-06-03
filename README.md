@@ -327,7 +327,7 @@
 - [Дифер / Deferred](https://github.com/HowProgrammingWorks/Callbacks)
 - [Промис / Promise](https://github.com/HowProgrammingWorks/Promise)
 - [Фьючер / Future](https://github.com/HowProgrammingWorks/Callbacks)
-- [Асинхрпонность при помощи async/await](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
+- [Асинхронность при помощи async/await](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
 - [Асинхронная композиция / Asynchronous Composition](https://github.com/metarhia/metasync/blob/master/lib/composition.js)
 - [Коллекторы данных / Data and Key Collectors](https://github.com/metarhia/metasync/blob/master/lib/collector.js)
 - Неизменяемые данные / Immutable Data
