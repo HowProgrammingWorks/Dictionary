@@ -297,7 +297,7 @@
 - [Стек, дек, очередь](https://github.com/HowProgrammingWorks/Dequeue)
   - [Стек / Stack] - Список, работающий про принципу LIFO
   - [Очередь / Queue] - Список, работающий про принципу FIFO
-  - [Дек / Dequeu](https://github.com/HowProgrammingWorks/Dequeue) -
+  - [Дек / Dequeue](https://github.com/HowProgrammingWorks/Dequeue) -
   двухсторонняя очередь (одновременно LIFO и FIFO)
 - [Дерево](https://github.com/HowProgrammingWorks/Trees)
 - [Двоичное дерево](https://github.com/HowProgrammingWorks/Trees),
@@ -328,7 +328,7 @@
 - [Дифер / Deferred](https://github.com/HowProgrammingWorks/Callbacks)
 - [Промис / Promise](https://github.com/HowProgrammingWorks/Promise)
 - [Фьючер / Future](https://github.com/HowProgrammingWorks/Callbacks)
-- [Асинхрпонность при помощи async/await](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
+- [Асинхронность при помощи async/await](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
 - [Асинхронная композиция / Asynchronous Composition](https://github.com/metarhia/metasync/blob/master/lib/composition.js)
 - [Коллекторы данных / Data and Key Collectors](https://github.com/metarhia/metasync/blob/master/lib/collector.js)
 - Неизменяемые данные / Immutable Data
