@@ -345,7 +345,7 @@
 - Курсор / Cursor
 - Объектно-реляционное отображение / ORM, Object-relational Mapping
 - [Сервер / Server](https://github.com/HowProgrammingWorks/NodeServer)
-  - [Прикоеивание по IP или идентификатору сессии / IP or Session Sticky](https://github.com/HowProgrammingWorks/NodeServer/tree/master/ip-sticky)
+  - [Приклеивание по IP или идентификатору сессии / IP or Session Sticky](https://github.com/HowProgrammingWorks/NodeServer/tree/master/ip-sticky)
   - Кластеризация / Cluster mode
     - При помощи [cluster](https://github.com/HowProgrammingWorks/NodeServer/tree/master/native-cluster)
     - при помощи [child_process](https://github.com/HowProgrammingWorks/NodeServer/tree/master/native-cp)
