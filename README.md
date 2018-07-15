@@ -38,6 +38,26 @@
   - типы данных, передаваемые по ссылке, а не по значению
   - например: `Object, Function, Array`
 - [Перечислимые тиыпы / Enumerated types](https://github.com/HowProgrammingWorks/Enum)
+- Флаг / Flag
+  - Логическое значение, определяющее состояние чего-либо, например, признак
+  закрытия соединения, признак завершения поиска по структуре данных и т.д.
+  - `let flagName = false;`
+- Массив / Array
+  - коллекция эллементов, доступ к которым осуществляется по индексам
+  - `const cities = ['Tehran', 'Yalta', 'Potsdam'];`
+- [Цикл / Loop](https://github.com/HowProgrammingWorks/Iteration)
+  - многократное исполнение блока операторов
+- [Условие / Conditional statements](https://github.com/HowProgrammingWorks/Conditional)
+  - синтаксическая конструкция, позволяющая выполнить разные действия или
+  возвращающая разные значения (тернарный оператор) в зависимости от логического
+  выражения (возвращающего true или false)
+- [Строка / String](https://github.com/HowProgrammingWorks/String)
+  - последовательность символов (в большинстве языков к каждому символу можно
+  обратиться через синтаксис доступа к элементам массива, например, квадратные
+  скобки)
+
+## Основные понятия
+
 - [Объект / Object](https://github.com/HowProgrammingWorks/DataTypes)
   - структура данных, содержащая состояние и методы, связанные с этим состоянием
   - объект может быть создан как литерал `{}` или экземпляр класса (прототипа)
@@ -61,13 +81,6 @@
   у наследников (формируется цепочка прототипов, по которой последовательно
   ищутся свойства, пока не будут найдены или пока не будет достигнут конец)
   - шаблон, который клонируется во время инстанциирования
-- Флаг / Flag
-  - Логическое значение, определяющее состояние чего-либо, например, признак
-  закрытия соединения, признак завершения поиска по структуре данных и т.д.
-  - `let flagName = false;`
-- Массив / Array
-  - коллекция эллементов, доступ к которым осуществляется по индексам
-  - `const cities = ['Tehran', 'Yalta', 'Potsdam'];`
 - [Функция](https://github.com/HowProgrammingWorks/Function)
   - определения
     - функциональное программирование: отображение или преобразование элементов
@@ -166,16 +179,6 @@
   значениями переменной цикла
 - [Итератор / Iterator](https://github.com/HowProgrammingWorks/Iteration)
   - интерфейс доступа к элементам коллекции: массива, множества, списка
-- [Цикл / Loop](https://github.com/HowProgrammingWorks/Iteration)
-  - многократное исполнение блока операторов
-- [Условие / Conditional statements](https://github.com/HowProgrammingWorks/Conditional)
-  - синтаксическая конструкция, позволяющая выполнить разные действия или
-  возвращающая разные значения (тернарный оператор) в зависимости от логического
-  выражения (возвращающего true или false)
-- [Строка / String](https://github.com/HowProgrammingWorks/String)
-  - последовательность символов (в большинстве языков к каждому символу можно
-  обратиться через синтаксис доступа к элементам массива, например, квадратные
-  скобки)
 - [Файл / File](https://github.com/HowProgrammingWorks/Files)
 - [Поток, Файловый поток / Stream, File Stream](https://github.com/HowProgrammingWorks/Streams)
 - [Сокет / Socket](https://github.com/HowProgrammingWorks/Socket)
@@ -263,10 +266,6 @@
   "знает" другой; это значит, что в нем помещен вызов метода (реализация которого
   содержится в другом) или он слушает событие, которое генерирует другой или
   он "знает" структуры данных, которые могут быть переданы из другого компонента
-- [Линтер / Linter](https://github.com/HowProgrammingWorks/Tools)
-  - статический анализатор кода (без запуска), который может определить и
-  предложить стилистические, грамматические или оптимизационное улучшение или
-  просто выявить проблему (а иногда и исправить ее автоматически)
 - Декомпозиция / Decomposition
   - разделение программного компонента на части по принципу функциональности,
   при этом, каждая часть будет решать подзадачу и появится часть кода, которая
@@ -284,6 +283,17 @@
   после использования
 - [Таймеры / Timers](https://github.com/HowProgrammingWorks/Timers)
 
+## Вспомогательные материалы
+
+- [Линтер / Linter](https://github.com/HowProgrammingWorks/Tools)
+  - статический анализатор кода (без запуска), который может определить и
+  предложить стилистические, грамматические или оптимизационное улучшение или
+  просто выявить проблему (а иногда и исправить ее автоматически)
+- Система контроля версий
+- Менеджер пакетов
+- Непрерывная интеграция
+- Тестирование
+
 ## Структуры данных
 
 - [Запись или структура / Struct or Record](https://github.com/HowProgrammingWorks/DataStructures)
@@ -295,10 +305,10 @@
   - Реализация на синтаксисе прототипов, классов и фабрик
   - Реализация на замыканиях и функциональных объектах
   - Реализация на одной и двух категориях (только узел или список и узел)
-- [Стек, дек, очередь](https://github.com/HowProgrammingWorks/Dequeue)
-  - [Стек / Stack] - Список, работающий про принципу LIFO
-  - [Очередь / Queue] - Список, работающий про принципу FIFO
-  - [Дек / Dequeue](https://github.com/HowProgrammingWorks/Dequeue) -
+- [Стек, очередь, дек](https://github.com/HowProgrammingWorks/Dequeue)
+  - Стек / Stack - Список, работающий про принципу LIFO
+  - Очередь / Queue - Список, работающий про принципу FIFO
+  - [Дек / Dequeue](https://github.com/HowProgrammingWorks/Dequeue)
   двухсторонняя очередь (одновременно LIFO и FIFO)
 - [Дерево](https://github.com/HowProgrammingWorks/Trees)
 - [Двоичное дерево](https://github.com/HowProgrammingWorks/Trees),
@@ -377,11 +387,11 @@
   - [Prototype-oriented programming](https://github.com/HowProgrammingWorks/PrototypeOrientedProgramming)
 - [Функциональное программирование / Functional Programming](https://github.com/HowProgrammingWorks/FunctionalProgramming)
   - [примеры разных стилей функционального кода](https://github.com/HowProgrammingWorks/Abstractions)
-- [Логическое программирование / Logical Programming]
-- [Декларативное программирование / Declarative Programming]
+- Логическое программирование / Logical Programming
+- Декларативное программирование / Declarative Programming
 - [Программирование управляемое данными / Data-driven Programming](https://github.com/HowProgrammingWorks/DataDrivenProgramming)
 - Техники программирования
   - [Асинхронное программирование / Asynchronous Programming](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
-  - [Реактивное программирование / Reactive Programming]
+  - Реактивное программирование / Reactive Programming
 - [Событийное программирование / Event-driven Programming](https://github.com/HowProgrammingWorks/EventDrivenProgramming)
 - [Метапрограммирование / Metaprogramming](https://github.com/HowProgrammingWorks/Metaprogramming)
