@@ -37,6 +37,7 @@
 - [Ссылочные типы / Reference](https://github.com/HowProgrammingWorks/DataTypes)
   - типы данных, передаваемые по ссылке, а не по значению
   - например: `Object, Function, Array`
+- [Перечислимые тиыпы / Enumerated types](https://github.com/HowProgrammingWorks/Enum)
 - [Объект / Object](https://github.com/HowProgrammingWorks/DataTypes)
   - структура данных, содержащая состояние и методы, связанные с этим состоянием
   - объект может быть создан как литерал `{}` или экземпляр класса (прототипа)
