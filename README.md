@@ -1,4 +1,13 @@
-# Programming Dictionary
+# Словарь-индекс понятий со ссылками
+
+Оглавление:
+- [Базовые понятия](https://github.com/HowProgrammingWorks/Dictionary#Базовые-понятия)
+- [Основные понятия](https://github.com/HowProgrammingWorks/Dictionary#Основные-понятия)
+- [Вспомогательные материалы](https://github.com/HowProgrammingWorks/Dictionary#Вспомогательные-материалы)
+- [Структуры данных](https://github.com/HowProgrammingWorks/Dictionary#Структуры-данных)
+- [Расширенные понятия](https://github.com/HowProgrammingWorks/Dictionary#Расширенные-понятия)
+- [Примеры кода и комплексного использования технологий](https://github.com/HowProgrammingWorks/Dictionary#Примеры-кода-и-комплексного-использования-технологий)
+- [Парадигмы программирования](https://github.com/HowProgrammingWorks/Dictionary#Парадигмы-программирования)
 
 ## Базовые понятия
 
