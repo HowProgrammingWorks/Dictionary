@@ -11,7 +11,7 @@
 
 ## Базовые понятия
 
-- [Абстракция / Abstraction](https://github.com/HowProgrammingWorks/Abstractions)
+- [Абстракция / Abstraction](https://github.com/HowProgrammingWorks/Reusable) и повторное использование
   - обобщенное решение задачи, в отличие от конкретного решения, подходящее для
   широкого круга задач
   - модель реального объекта (множества объектов), являющаяся приближением к
@@ -33,7 +33,7 @@
   - `const WATCH_TIMEOUT = 5000;`
 - [Типы данных / Data Types](https://github.com/HowProgrammingWorks/DataTypes)
   - тип - это множесво значений и операции, определенные на этом множестве
-  - `[5, 'Kiev', true, { city: 'Beijing' }, a => ++a ].map(x => typeof(x));`
+  - `[5, 'Kiev', true, { city: 'Beijing' }, a => ++a ].map(x => typeof x);`
 - Примитивные или [скалярные типы / Scalar Types](https://github.com/HowProgrammingWorks/DataTypes)
   - примитивные типы имеют одно значение, а не несколько структурированных
   значений и передаются по значению (копирование значения), а не по ссылке
