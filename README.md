@@ -46,7 +46,7 @@
 - [Ссылочные типы / Reference](https://github.com/HowProgrammingWorks/DataTypes)
   - типы данных, передаваемые по ссылке, а не по значению
   - например: `Object, Function, Array`
-- [Перечислимые тиыпы / Enumerated types](https://github.com/HowProgrammingWorks/Enum)
+- [Перечислимые типы / Enumerated types](https://github.com/HowProgrammingWorks/Enum)
 - Флаг / Flag
   - Логическое значение, определяющее состояние чего-либо, например, признак
   закрытия соединения, признак завершения поиска по структуре данных и т.д.
