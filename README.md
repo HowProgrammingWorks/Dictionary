@@ -65,6 +65,15 @@
   обратиться через синтаксис доступа к элементам массива, например, квадратные
   скобки)
 
+Видео:
+- [Базовый синтаксис Javascript (осень 2018)](https://www.youtube.com/watch?v=xJn3k1f4BiM&index=1&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Базовый синтаксис Javascript, продолжение (осень 2018)](https://www.youtube.com/watch?v=qa-XleqA0JU&index=3&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Карта специальности инженер-программист (осень 2018)](https://www.youtube.com/watch?v=SE5aXH-yf0I&index=2&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Архитектурный подход к программированию (осень 2018)](https://www.youtube.com/watch?v=d_vyO2CkiOc&index=4&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [JavaScript как ассемблер нашего времени (лето 2017)](https://www.youtube.com/watch?v=ZnZg_lf3b94&index=6&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Замыкания, примеси, обертки, функторы, события (лето 2017)](https://www.youtube.com/watch?v=AiHiJL-fvNI&index=7&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Функции, лямбды, контексты, замыкания (осень 2018)](https://www.youtube.com/watch?v=pn5myCmpV2U&index=10&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+
 ## Основные понятия
 
 - [Объект / Object](https://github.com/HowProgrammingWorks/DataTypes)
@@ -291,6 +300,10 @@
   инициализированные экземпляры (вместо инстанциирования новых) и отдавать их
   после использования
 - [Таймеры / Timers](https://github.com/HowProgrammingWorks/Timers)
+
+Видео:
+- [OdessaJS 2018, часть 1](https://www.youtube.com/watch?v=wkdqpR2BJu4&index=8&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [OdessaJS 2018, часть 2](https://www.youtube.com/watch?v=8jAuwfNw9aE&index=9&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 
 ## Вспомогательные материалы
 
