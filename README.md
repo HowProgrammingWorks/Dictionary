@@ -73,6 +73,8 @@
 - [JavaScript как ассемблер нашего времени (лето 2017)](https://www.youtube.com/watch?v=ZnZg_lf3b94&index=6&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 - [Замыкания, примеси, обертки, функторы, события (лето 2017)](https://www.youtube.com/watch?v=AiHiJL-fvNI&index=7&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 - [Функции, лямбды, контексты, замыкания (осень 2018)](https://www.youtube.com/watch?v=pn5myCmpV2U&index=10&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Настройка среды: Node.js, npm, git, eslint (осень 2018)](https://www.youtube.com/watch?v=hSyA7tcNaCE&index=11&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Массивы, объекты, классы, прототипы (осень 2018)](https://www.youtube.com/watch?v=VBMGnAPfmsY&index=12&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 
 ## Основные понятия
 
