@@ -67,15 +67,14 @@
   скобки)
 
 Видео:
-- [Базовый синтаксис Javascript (осень 2018)](https://www.youtube.com/watch?v=xJn3k1f4BiM&index=1&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Базовый синтаксис Javascript, продолжение (осень 2018)](https://www.youtube.com/watch?v=qa-XleqA0JU&index=3&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Карта специальности инженер-программист (осень 2018)](https://www.youtube.com/watch?v=SE5aXH-yf0I&index=2&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Архитектурный подход к программированию (осень 2018)](https://www.youtube.com/watch?v=d_vyO2CkiOc&index=4&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [JavaScript как ассемблер нашего времени (лето 2017)](https://www.youtube.com/watch?v=ZnZg_lf3b94&index=6&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Замыкания, примеси, обертки, функторы, события (лето 2017)](https://www.youtube.com/watch?v=AiHiJL-fvNI&index=7&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Функции, лямбды, контексты, замыкания (осень 2018)](https://www.youtube.com/watch?v=pn5myCmpV2U&index=10&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Настройка среды: Node.js, npm, git, eslint (осень 2018)](https://www.youtube.com/watch?v=hSyA7tcNaCE&index=11&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Массивы, объекты, классы, прототипы (осень 2018)](https://www.youtube.com/watch?v=VBMGnAPfmsY&index=12&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Базовый синтаксис Javascript (осень 2018)](https://www.youtube.com/watch?v=xJn3k1f4BiM&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Базовый синтаксис Javascript, продолжение (осень 2018)](https://www.youtube.com/watch?v=qa-XleqA0JU&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Карта специальности инженер-программист (осень 2018)](https://www.youtube.com/watch?v=SE5aXH-yf0I&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [JavaScript как ассемблер нашего времени (лето 2017)](https://www.youtube.com/watch?v=ZnZg_lf3b94&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Замыкания, примеси, обертки, функторы, события (лето 2017)](https://www.youtube.com/watch?v=AiHiJL-fvNI&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Функции, лямбды, контексты, замыкания (осень 2018)](https://www.youtube.com/watch?v=pn5myCmpV2U&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Настройка среды: Node.js, npm, git, eslint (осень 2018)](https://www.youtube.com/watch?v=hSyA7tcNaCE&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Массивы, объекты, классы, прототипы (осень 2018)](https://www.youtube.com/watch?v=VBMGnAPfmsY&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 
 ## Основные понятия
 
@@ -305,8 +304,18 @@
 - [Таймеры / Timers](https://github.com/HowProgrammingWorks/Timers)
 
 Видео:
-- [OdessaJS 2018, часть 1](https://www.youtube.com/watch?v=wkdqpR2BJu4&index=8&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [OdessaJS 2018, часть 2](https://www.youtube.com/watch?v=8jAuwfNw9aE&index=9&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Введение в Node.js (осень 2018)](https://www.youtube.com/watch?v=WBcHgaoHh1k&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [OdessaJS 2018, часть 1](https://www.youtube.com/watch?v=wkdqpR2BJu4&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [OdessaJS 2018, часть 2](https://www.youtube.com/watch?v=8jAuwfNw9aE&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Асинхронное программирование на Node.js (осень 2018)](https://www.youtube.com/watch?v=hY6Z6qNYzmc&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Асинхронное программирование на JavaScript и Node.js (ХарьковJS 2017)](https://www.youtube.com/watch?v=VdRhAXnfrd0&list=PLHhi8ymDMrQY8settDxzdTGnnb1GZ_oQC)
+- [Асинхронное программирование с библиотекой Metasync (OdessaJS 2017)](https://www.youtube.com/watch?v=XRSxsw0Kgms&list=PLHhi8ymDMrQY8settDxzdTGnnb1GZ_oQC)
+- [Обзор Node.js API (осень 2018)](https://www.youtube.com/watch?v=sOkjR-N6IAs&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Файлы, потоки, буферы, сеть, сокеты, ошибки (лето 2017)](https://www.youtube.com/watch?v=Kqs_Qnodvj0&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Семинар и доклады на летней школе 2017](https://www.youtube.com/watch?v=pgOr3usXMXs&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Исправление Keep Alive Timeout в NodeJS (OdessaJS 2015)](https://www.youtube.com/watch?v=Q8ohKdYrpRA&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Модули, слои, структура проекта, песочницы в JavaScript и Node.js (осень 2018)](https://www.youtube.com/watch?v=O7A9chb573E&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Клиент-сервер на Node.js TCP и UDP, DNS (осень 2018)](https://www.youtube.com/watch?v=bHn-wTlTTR0&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
 
 ## Вспомогательные материалы
 
@@ -397,6 +406,8 @@
 - [Динамическая загрузка модулей / Live Code Reload](https://github.com/HowProgrammingWorks/LiveReload)
 - Http Request (HTTP, XMLHttpRequest, fetch): [примеры](https://github.com/HowProgrammingWorks/HttpRequest)
 
+Видео:
+
 ## Примеры кода и комплексного использования технологий
 
 - [Живые электронные таблицы / Live Table](https://github.com/HowProgrammingWorks/LiveTable)
@@ -420,3 +431,7 @@
   - Реактивное программирование / Reactive Programming
 - [Событийное программирование / Event-driven Programming](https://github.com/HowProgrammingWorks/EventDrivenProgramming)
 - [Метапрограммирование / Metaprogramming](https://github.com/HowProgrammingWorks/Metaprogramming)
+
+Видео:
+- [Архитектурный подход к программированию (осень 2018)](https://www.youtube.com/watch?v=d_vyO2CkiOc&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Архитектура приложений и метапрограммирование](https://www.youtube.com/watch?v=LXS0PqsQvx8&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
