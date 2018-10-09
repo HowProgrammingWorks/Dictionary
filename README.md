@@ -407,6 +407,7 @@
 - Http Request (HTTP, XMLHttpRequest, fetch): [примеры](https://github.com/HowProgrammingWorks/HttpRequest)
 
 Видео:
+- [Инверсия управления и внедрение зависимостей (осень 2018)](https://www.youtube.com/watch?v=Fz86Fdjz-LM)
 
 ## Примеры кода и комплексного использования технологий
 
