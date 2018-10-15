@@ -75,6 +75,8 @@
 - [Функции, лямбды, контексты, замыкания (осень 2018)](https://www.youtube.com/watch?v=pn5myCmpV2U&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 - [Настройка среды: Node.js, npm, git, eslint (осень 2018)](https://www.youtube.com/watch?v=hSyA7tcNaCE&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 - [Массивы, объекты, классы, прототипы (осень 2018)](https://www.youtube.com/watch?v=VBMGnAPfmsY&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Функции высшего порядка, колбеки, события на JavaScript](https://www.youtube.com/watch?v=1vqATwbGHnc&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Композиция, каррирование, частичное применение](https://www.youtube.com/watch?v=ND8KQ5xjk7o&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 
 ## Основные понятия
 
@@ -316,6 +318,7 @@
 - [Исправление Keep Alive Timeout в NodeJS (OdessaJS 2015)](https://www.youtube.com/watch?v=Q8ohKdYrpRA&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
 - [Модули, слои, структура проекта, песочницы в JavaScript и Node.js (осень 2018)](https://www.youtube.com/watch?v=O7A9chb573E&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
 - [Клиент-сервер на Node.js TCP и UDP, DNS (осень 2018)](https://www.youtube.com/watch?v=bHn-wTlTTR0&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Работа с файлами, буферами и файловыми потоками в Node.js](https://www.youtube.com/watch?v=eQGBS15vUac&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
 
 ## Вспомогательные материалы
 
@@ -407,7 +410,7 @@
 - Http Request (HTTP, XMLHttpRequest, fetch): [примеры](https://github.com/HowProgrammingWorks/HttpRequest)
 
 Видео:
-- [Инверсия управления и внедрение зависимостей (осень 2018)](https://www.youtube.com/watch?v=Fz86Fdjz-LM)
+- [Инверсия управления и внедрение зависимостей (осень 2018)](https://www.youtube.com/watch?v=Fz86Fdjz-LM&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
 
 ## Примеры кода и комплексного использования технологий
 
