@@ -71,6 +71,7 @@
 - [Базовый синтаксис Javascript (осень 2018)](https://www.youtube.com/watch?v=xJn3k1f4BiM&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 - [Базовый синтаксис Javascript, продолжение (осень 2018)](https://www.youtube.com/watch?v=qa-XleqA0JU&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 - [JavaScript как ассемблер нашего времени (лето 2017)](https://www.youtube.com/watch?v=ZnZg_lf3b94&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Работа со строками, шаблонами и юникодом (осень 2018)](https://www.youtube.com/watch?v=GcopcHQkA8M&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 
 ## Основные понятия
 
@@ -318,6 +319,11 @@
 - [Модули, слои, структура проекта, песочницы в JavaScript и Node.js (осень 2018)](https://www.youtube.com/watch?v=O7A9chb573E&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
 - [Исправление Keep Alive Timeout в NodeJS (OdessaJS 2015)](https://www.youtube.com/watch?v=Q8ohKdYrpRA&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
 - [Клиент-сервер на Node.js TCP и UDP, DNS (осень 2018)](https://www.youtube.com/watch?v=bHn-wTlTTR0&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [HTTP сервер на Node.js (осень 2018)](https://www.youtube.com/watch?v=7Ufxj0oTaUo&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Примеси, обертки, дектораторы, мемоизация (осень 2018)](https://www.youtube.com/watch?v=oRQ0kQr1N-U&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Консоль и командная строка (осень 2018)](https://www.youtube.com/watch?v=5aSZyKi5BmE&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Чеининг функций и объектов, обработка ошибок (осень 2018)](https://www.youtube.com/watch?v=PfuEfIiLX34&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Таймеры, таймауты, EventEmitter в JavaScript и Node.js(осень 2018)](https://www.youtube.com/watch?v=LK2jveAnRNg&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 
 ## Вспомогательные материалы
 
@@ -413,11 +419,17 @@
 
 Видео:
 - [Инверсия управления и внедрение зависимостей (осень 2018)](https://www.youtube.com/watch?v=Fz86Fdjz-LM&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Измерение производительности кода и оптимизация (осень 2018)](https://www.youtube.com/watch?v=sanq2X7Re8o&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Межпроцессовое взаимодействие (осень 2018)](https://www.youtube.com/watch?v=2OXWZFMvfbc&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
 
 ## Примеры кода и комплексного использования технологий
 
 - [Живые электронные таблицы / Live Table](https://github.com/HowProgrammingWorks/LiveTable)
 - [Чат на вебсокетах / Websocket Chat](https://github.com/HowProgrammingWorks/WebsocketChat)
+
+Видео:
+- [Высоконагруженные распределенные приложения на Node.js (JS Conference 2017)](https://www.youtube.com/watch?v=7tfZDABPvVs&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [WebSocket сервер на Node.js, электронные таблицы и чат (осень 2018)](https://www.youtube.com/watch?v=Sf7ln3n16ws&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
 
 ## Парадигмы программирования
 
@@ -441,3 +453,4 @@
 Видео:
 - [Архитектурный подход к программированию (осень 2018)](https://www.youtube.com/watch?v=d_vyO2CkiOc&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 - [Архитектура приложений и метапрограммирование](https://www.youtube.com/watch?v=LXS0PqsQvx8&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Слои, связанность и связность кода (осень 2018)](https://www.youtube.com/watch?v=A3RpwNlVeyY&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
