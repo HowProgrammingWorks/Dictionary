@@ -416,6 +416,7 @@
 - [Протокол / Protocol](https://github.com/metarhia/metacom)
 - [Динамическая загрузка модулей / Live Code Reload](https://github.com/HowProgrammingWorks/LiveReload)
 - Http Request (HTTP, XMLHttpRequest, fetch): [примеры](https://github.com/HowProgrammingWorks/HttpRequest)
+- [Неблокирующие итерации](https://github.com/HowProgrammingWorks/NonBlocking)
 
 Видео:
 - [Инверсия управления и внедрение зависимостей (осень 2018)](https://www.youtube.com/watch?v=Fz86Fdjz-LM&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
