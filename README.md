@@ -1,8 +1,17 @@
-# Programming Dictionary
+# Словарь-индекс понятий со ссылками
+
+Оглавление:
+- [Базовые понятия](https://github.com/HowProgrammingWorks/Dictionary#Базовые-понятия)
+- [Основные понятия](https://github.com/HowProgrammingWorks/Dictionary#Основные-понятия)
+- [Вспомогательные материалы](https://github.com/HowProgrammingWorks/Dictionary#Вспомогательные-материалы)
+- [Структуры данных](https://github.com/HowProgrammingWorks/Dictionary#Структуры-данных)
+- [Расширенные понятия](https://github.com/HowProgrammingWorks/Dictionary#Расширенные-понятия)
+- [Примеры кода и комплексного использования технологий](https://github.com/HowProgrammingWorks/Dictionary#Примеры-кода-и-комплексного-использования-технологий)
+- [Парадигмы программирования](https://github.com/HowProgrammingWorks/Dictionary#Парадигмы-программирования)
 
 ## Базовые понятия
 
-- [Абстракция / Abstraction](https://github.com/HowProgrammingWorks/Abstractions)
+- [Абстракция / Abstraction](https://github.com/HowProgrammingWorks/Reusable) и повторное использование
   - обобщенное решение задачи, в отличие от конкретного решения, подходящее для
   широкого круга задач
   - модель реального объекта (множества объектов), являющаяся приближением к
@@ -16,15 +25,15 @@
 - [Переменная / Variable](https://github.com/HowProgrammingWorks/DataTypes)
   - именованная область памяти, имеющая тип данных, адрес и значение
   - имя (идентификатор), с которым связано значение и тип данных
-  - переменная предоставляет возможностью менять значение (а для некоторых
+  - переменная предоставляет возможность менять значение (а для некоторых
   языков и тип)
   - `let cityName = 'Beijing';`
 - [Константа / Constant](https://github.com/HowProgrammingWorks/DataTypes)
-  - имя (идентификатор), с которым связано не изменяемое значение и тип
+  - имя (идентификатор), с которым связано неизменяемое значение и тип
   - `const WATCH_TIMEOUT = 5000;`
 - [Типы данных / Data Types](https://github.com/HowProgrammingWorks/DataTypes)
-  - тип - это множесво значений и операции, определенные на этом множестве
-  - `[5, 'Kiev', true, { city: 'Beijing' }, a => ++a ].map(x => typeof(x));`
+  - тип - это множество значений и операции, определенные на этом множестве
+  - `[5, 'Kiev', true, { city: 'Beijing' }, a => ++a ].map(x => typeof x);`
 - Примитивные или [скалярные типы / Scalar Types](https://github.com/HowProgrammingWorks/DataTypes)
   - примитивные типы имеют одно значение, а не несколько структурированных
   значений и передаются по значению (копирование значения), а не по ссылке
@@ -37,6 +46,35 @@
 - [Ссылочные типы / Reference](https://github.com/HowProgrammingWorks/DataTypes)
   - типы данных, передаваемые по ссылке, а не по значению
   - например: `Object, Function, Array`
+  - [примеры кода по массивам и объектам](https://github.com/HowProgrammingWorks/DataStructures)
+- [Перечислимые типы / Enumerated types](https://github.com/HowProgrammingWorks/Enum)
+- Флаг / Flag
+  - Логическое значение, определяющее состояние чего-либо, например, признак
+  закрытия соединения, признак завершения поиска по структуре данных и т.д.
+  - `let flagName = false;`
+- Массив / Array
+  - коллекция эллементов, доступ к которым осуществляется по индексам
+  - `const cities = ['Tehran', 'Yalta', 'Potsdam'];`
+- [Цикл / Loop](https://github.com/HowProgrammingWorks/Iteration)
+  - многократное исполнение блока операторов
+- [Условие / Conditional statements](https://github.com/HowProgrammingWorks/Conditional)
+  - синтаксическая конструкция, позволяющая выполнить разные действия или
+  возвращающая разные значения (тернарный оператор) в зависимости от логического
+  выражения (возвращающего true или false)
+- [Строка / String](https://github.com/HowProgrammingWorks/String)
+  - последовательность символов (в большинстве языков к каждому символу можно
+  обратиться через синтаксис доступа к элементам массива, например, квадратные
+  скобки)
+
+Видео:
+- [Карта специальности инженер-программист (осень 2018)](https://www.youtube.com/watch?v=SE5aXH-yf0I&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Базовый синтаксис Javascript (осень 2018)](https://www.youtube.com/watch?v=xJn3k1f4BiM&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Базовый синтаксис Javascript, продолжение (осень 2018)](https://www.youtube.com/watch?v=qa-XleqA0JU&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [JavaScript как ассемблер нашего времени (лето 2017)](https://www.youtube.com/watch?v=ZnZg_lf3b94&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Работа со строками, шаблонами и юникодом (осень 2018)](https://www.youtube.com/watch?v=GcopcHQkA8M&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+
+## Основные понятия
+
 - [Объект / Object](https://github.com/HowProgrammingWorks/DataTypes)
   - структура данных, содержащая состояние и методы, связанные с этим состоянием
   - объект может быть создан как литерал `{}` или экземпляр класса (прототипа)
@@ -60,13 +98,6 @@
   у наследников (формируется цепочка прототипов, по которой последовательно
   ищутся свойства, пока не будут найдены или пока не будет достигнут конец)
   - шаблон, который клонируется во время инстанциирования
-- Флаг / Flag
-  - Логическое значение, определяющее состояние чего-либо, например, признак
-  закрытия соединения, признак завершения поиска по структуре данных и т.д.
-  - `let flagName = false;`
-- Массив / Array
-  - коллекция эллементов, доступ к которым осуществляется по индексам
-  - `const cities = ['Tehran', 'Yalta', 'Potsdam'];`
 - [Функция](https://github.com/HowProgrammingWorks/Function)
   - определения
     - функциональное программирование: отображение или преобразование элементов
@@ -121,13 +152,14 @@
   - [Побочные эффекты / Side effects](https://github.com/HowProgrammingWorks/Function)
   - [Функция высшего порядка / Higher-order Function](https://github.com/HowProgrammingWorks/HigherOrderFunction)
     - если функция только в аргументах, то это колбек
-    - если функция только в результате, то это фабрика функций
+    - если функция только в результате, то это фабрика функций на замыканиях
     - если возвращаемая функция имеет тот же смысл, что и получаемая в
     аргументах (+ дополнительное поведение), то это обертка
     - очень редко бывает, что возвращаемая функция не связана с функцией из
     аргументов (но пока ни кто не нашел вразумительного примера, где это
     реально нужно)
-    - если на выходе функция-конструктор, то это фабрика конструкторов
+    - если на выходе класс или функция-конструктор, то это фабрики классов и
+    прототипов соответсвенно
   - Функциональное наследование / Functional Inheritance
     - при помощи замыканий, ч.п., каррирования, лямбд
 - [Метод / Method](https://github.com/HowProgrammingWorks/Function)
@@ -141,7 +173,7 @@
 - Интерфейс / Interface
   - набор методов (функций) объединенных или общим объектным контекстом или
   применением к структурам данных одной предметной области т.е. смыслом (API)
-  - способ определдения (спецификации) контракта, по которому связаны
+  - способ определения (спецификации) контракта, по которому связаны
   программные компоненты
   - Набор методов с их именами, аргументами и типами аргументов
 - Программный интерфейс / Application Interface, API
@@ -160,26 +192,16 @@
     - [Лисенер / Listener](https://github.com/HowProgrammingWorks/Callbacks)
 - [Итерирование / Iteration](https://github.com/HowProgrammingWorks/Iteration)
   - многократное повторение одного блока кода или одной функции над различными
-  данными: элементами массивов, множдеств, списков, коллекций и различными
+  данными: элементами массивов, множеств, списков, коллекций и различными
   значениями переменной цикла
 - [Итератор / Iterator](https://github.com/HowProgrammingWorks/Iteration)
   - интерфейс доступа к элементам коллекции: массива, множества, списка
-- [Цикл / Loop](https://github.com/HowProgrammingWorks/Iteration)
-  - многократное исполнение блока операторов
-- [Условие / Conditional statements](https://github.com/HowProgrammingWorks/Conditional)
-  - синтаксическая конструкция, позволяющая выполнить разные действия или
-  возвращающая разные значения (тернарный оператор) в зависимости от логического
-  выражения (возвращающего true или false)
-- [Строка / String](https://github.com/HowProgrammingWorks/String)
-  - последовательность символов (в большинстве языков к каждому символу можно
-  обратиться через синтаксис доступа к элементам массива, например, квадратные
-  скобки)
 - [Файл / File](https://github.com/HowProgrammingWorks/Files)
 - [Поток, Файловый поток / Stream, File Stream](https://github.com/HowProgrammingWorks/Streams)
 - [Сокет / Socket](https://github.com/HowProgrammingWorks/Socket)
   - программный интерфейс (или абстракция) для обмена данными между процессами
 - [Дескриптор / Handle](https://github.com/HowProgrammingWorks/Files)
-  - уникаьный идентификатор программного объекта (чаще всего объекта операционной
+  - уникальный идентификатор программного объекта (чаще всего объекта операционной
   системы): файла, сокета, окна, таймера, соединения и т.д.
 - Состояние / State
   - совокупность данных программного компонента (переменных и структур данных),
@@ -210,7 +232,7 @@
   инстанциирования (создания)
   - `Object.assign(target, { field1, field2 }, { field3 });`
 - Декоратор / Decorator
-  - шаблон оборачивания объектов или функций для добавлением новой
+  - шаблон оборачивания объектов или функций для добавления новой
   функциональности при помощи специального синтаксиса
 - [Наследование / Inheritance](https://github.com/HowProgrammingWorks/Inheritance)
 - [Множественное наследование / Multiple Inheritance](https://github.com/HowProgrammingWorks/Inheritance)
@@ -261,10 +283,6 @@
   "знает" другой; это значит, что в нем помещен вызов метода (реализация которого
   содержится в другом) или он слушает событие, которое генерирует другой или
   он "знает" структуры данных, которые могут быть переданы из другого компонента
-- [Линтер / Linter](https://github.com/HowProgrammingWorks/Tools)
-  - статический анализатор кода (без запуска), который может определить и
-  предложить стилистические, грамматические или оптимизационное улучшение или
-  просто выявить проблему (а иногда и исправить ее автоматически)
 - Декомпозиция / Decomposition
   - разделение программного компонента на части по принципу функциональности,
   при этом, каждая часть будет решать подзадачу и появится часть кода, которая
@@ -282,6 +300,45 @@
   после использования
 - [Таймеры / Timers](https://github.com/HowProgrammingWorks/Timers)
 
+Видео:
+- [Массивы, объекты, классы, прототипы (осень 2018)](https://www.youtube.com/watch?v=VBMGnAPfmsY&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Функции, лямбды, контексты, замыкания (осень 2018)](https://www.youtube.com/watch?v=pn5myCmpV2U&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Композиция, каррирование, частичное применение (осень 2018)](https://www.youtube.com/watch?v=ND8KQ5xjk7o&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Функции высшего порядка, колбеки, события на JavaScript (осень 2018)](https://www.youtube.com/watch?v=1vqATwbGHnc&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Замыкания, примеси, обертки, функторы, события (лето 2017)](https://www.youtube.com/watch?v=AiHiJL-fvNI&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [OdessaJS 2018, часть 1](https://www.youtube.com/watch?v=wkdqpR2BJu4&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [OdessaJS 2018, часть 2](https://www.youtube.com/watch?v=8jAuwfNw9aE&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Асинхронное программирование на Node.js (осень 2018)](https://www.youtube.com/watch?v=hY6Z6qNYzmc&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Асинхронное программирование на JavaScript и Node.js (ХарьковJS 2017)](https://www.youtube.com/watch?v=VdRhAXnfrd0&list=PLHhi8ymDMrQY8settDxzdTGnnb1GZ_oQC)
+- [Асинхронное программирование с библиотекой Metasync (OdessaJS 2017)](https://www.youtube.com/watch?v=XRSxsw0Kgms&list=PLHhi8ymDMrQY8settDxzdTGnnb1GZ_oQC)
+- [Семинар и доклады на летней школе 2017](https://www.youtube.com/watch?v=pgOr3usXMXs&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Введение в Node.js (осень 2018)](https://www.youtube.com/watch?v=WBcHgaoHh1k&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Обзор Node.js API (осень 2018)](https://www.youtube.com/watch?v=sOkjR-N6IAs&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Файлы, потоки, буферы, сеть, сокеты, ошибки (лето 2017)](https://www.youtube.com/watch?v=Kqs_Qnodvj0&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Работа с файлами, буферами и файловыми потоками в Node.js (осень 2018)](https://www.youtube.com/watch?v=eQGBS15vUac&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Модули, слои, структура проекта, песочницы в JavaScript и Node.js (осень 2018)](https://www.youtube.com/watch?v=O7A9chb573E&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Исправление Keep Alive Timeout в NodeJS (OdessaJS 2015)](https://www.youtube.com/watch?v=Q8ohKdYrpRA&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Клиент-сервер на Node.js TCP и UDP, DNS (осень 2018)](https://www.youtube.com/watch?v=bHn-wTlTTR0&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [HTTP сервер на Node.js (осень 2018)](https://www.youtube.com/watch?v=7Ufxj0oTaUo&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Примеси, обертки, дектораторы, мемоизация (осень 2018)](https://www.youtube.com/watch?v=oRQ0kQr1N-U&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Консоль и командная строка (осень 2018)](https://www.youtube.com/watch?v=5aSZyKi5BmE&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Чеининг функций и объектов, обработка ошибок (осень 2018)](https://www.youtube.com/watch?v=PfuEfIiLX34&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Таймеры, таймауты, EventEmitter в JavaScript и Node.js(осень 2018)](https://www.youtube.com/watch?v=LK2jveAnRNg&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+
+## Вспомогательные материалы
+
+- [Линтер / Linter](https://github.com/HowProgrammingWorks/Tools)
+  - статический анализатор кода (без запуска), который может определить и
+  предложить стилистические, грамматические или оптимизационное улучшение или
+  просто выявить проблему (а иногда и исправить ее автоматически)
+- Система контроля версий
+- Менеджер пакетов
+- Непрерывная интеграция
+- Тестирование
+
+Видео:
+- [Настройка среды: Node.js, npm, git, eslint (осень 2018)](https://www.youtube.com/watch?v=hSyA7tcNaCE&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+
 ## Структуры данных
 
 - [Запись или структура / Struct or Record](https://github.com/HowProgrammingWorks/DataStructures)
@@ -293,15 +350,15 @@
   - Реализация на синтаксисе прототипов, классов и фабрик
   - Реализация на замыканиях и функциональных объектах
   - Реализация на одной и двух категориях (только узел или список и узел)
-- [Стек, дек, очередь](https://github.com/HowProgrammingWorks/Dequeue)
-  - [Стек / Stack] - Список, работающий про принципу LIFO
-  - [Очередь / Queue] - Список, работающий про принципу FIFO
-  - [Дек / Dequeu](https://github.com/HowProgrammingWorks/Dequeue) -
+- [Стек, очередь, дек](https://github.com/HowProgrammingWorks/Dequeue)
+  - Стек / Stack - Список, работающий про принципу LIFO
+  - Очередь / Queue - Список, работающий про принципу FIFO
+  - [Дек / Dequeue](https://github.com/HowProgrammingWorks/Dequeue)
   двухсторонняя очередь (одновременно LIFO и FIFO)
 - [Дерево](https://github.com/HowProgrammingWorks/Trees)
 - [Двоичное дерево](https://github.com/HowProgrammingWorks/Trees),
 поисковое дерево, красно-черное дерево
-- Куча / Heap - древовидная струкутра данных или область пямяти для динамического
+- Куча / Heap - древовидная структура данных или область памяти для динамического
   распределения под хранение данных
 - [Граф / Graph](https://github.com/HowProgrammingWorks/Graph)
 - [Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)
@@ -344,7 +401,7 @@
 - Курсор / Cursor
 - Объектно-реляционное отображение / ORM, Object-relational Mapping
 - [Сервер / Server](https://github.com/HowProgrammingWorks/NodeServer)
-  - [Прикоеивание по IP или идентификатору сессии / IP or Session Sticky](https://github.com/HowProgrammingWorks/NodeServer/tree/master/ip-sticky)
+  - [Приклеивание по IP или идентификатору сессии / IP or Session Sticky](https://github.com/HowProgrammingWorks/NodeServer/tree/master/ip-sticky)
   - Кластеризация / Cluster mode
     - При помощи [cluster](https://github.com/HowProgrammingWorks/NodeServer/tree/master/native-cluster)
     - при помощи [child_process](https://github.com/HowProgrammingWorks/NodeServer/tree/master/native-cp)
@@ -359,11 +416,21 @@
 - [Протокол / Protocol](https://github.com/metarhia/metacom)
 - [Динамическая загрузка модулей / Live Code Reload](https://github.com/HowProgrammingWorks/LiveReload)
 - Http Request (HTTP, XMLHttpRequest, fetch): [примеры](https://github.com/HowProgrammingWorks/HttpRequest)
+- [Неблокирующие итерации](https://github.com/HowProgrammingWorks/NonBlocking)
+
+Видео:
+- [Инверсия управления и внедрение зависимостей (осень 2018)](https://www.youtube.com/watch?v=Fz86Fdjz-LM&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Измерение производительности кода и оптимизация (осень 2018)](https://www.youtube.com/watch?v=sanq2X7Re8o&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [Межпроцессовое взаимодействие (осень 2018)](https://www.youtube.com/watch?v=2OXWZFMvfbc&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
 
 ## Примеры кода и комплексного использования технологий
 
 - [Живые электронные таблицы / Live Table](https://github.com/HowProgrammingWorks/LiveTable)
 - [Чат на вебсокетах / Websocket Chat](https://github.com/HowProgrammingWorks/WebsocketChat)
+
+Видео:
+- [Высоконагруженные распределенные приложения на Node.js (JS Conference 2017)](https://www.youtube.com/watch?v=7tfZDABPvVs&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
+- [WebSocket сервер на Node.js, электронные таблицы и чат (осень 2018)](https://www.youtube.com/watch?v=Sf7ln3n16ws&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
 
 ## Парадигмы программирования
 
@@ -375,11 +442,16 @@
   - [Prototype-oriented programming](https://github.com/HowProgrammingWorks/PrototypeOrientedProgramming)
 - [Функциональное программирование / Functional Programming](https://github.com/HowProgrammingWorks/FunctionalProgramming)
   - [примеры разных стилей функционального кода](https://github.com/HowProgrammingWorks/Abstractions)
-- [Логическое программирование / Logical Programming]
-- [Декларативное программирование / Declarative Programming]
+- Логическое программирование / Logical Programming
+- Декларативное программирование / Declarative Programming
 - [Программирование управляемое данными / Data-driven Programming](https://github.com/HowProgrammingWorks/DataDrivenProgramming)
 - Техники программирования
   - [Асинхронное программирование / Asynchronous Programming](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
-  - [Реактивное программирование / Reactive Programming]
+  - Реактивное программирование / Reactive Programming
 - [Событийное программирование / Event-driven Programming](https://github.com/HowProgrammingWorks/EventDrivenProgramming)
 - [Метапрограммирование / Metaprogramming](https://github.com/HowProgrammingWorks/Metaprogramming)
+
+Видео:
+- [Архитектурный подход к программированию (осень 2018)](https://www.youtube.com/watch?v=d_vyO2CkiOc&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Архитектура приложений и метапрограммирование](https://www.youtube.com/watch?v=LXS0PqsQvx8&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
+- [Слои, связанность и связность кода (осень 2018)](https://www.youtube.com/watch?v=A3RpwNlVeyY&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
