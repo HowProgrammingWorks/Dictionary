@@ -1,5 +1,7 @@
 # Словарь-индекс понятий со ссылками
 
+Внимание! Ссылки на видео по каждой теме помещены в соответствующие репозитории.
+
 Оглавление:
 - [Базовые понятия](https://github.com/HowProgrammingWorks/Dictionary#Базовые-понятия)
 - [Основные понятия](https://github.com/HowProgrammingWorks/Dictionary#Основные-понятия)
@@ -65,13 +67,6 @@
   - последовательность символов (в большинстве языков к каждому символу можно
   обратиться через синтаксис доступа к элементам массива, например, квадратные
   скобки)
-
-Видео:
-- [Карта специальности инженер-программист (осень 2018)](https://www.youtube.com/watch?v=SE5aXH-yf0I&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Базовый синтаксис Javascript (осень 2018)](https://www.youtube.com/watch?v=xJn3k1f4BiM&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Базовый синтаксис Javascript, продолжение (осень 2018)](https://www.youtube.com/watch?v=qa-XleqA0JU&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [JavaScript как ассемблер нашего времени (лето 2017)](https://www.youtube.com/watch?v=ZnZg_lf3b94&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Работа со строками, шаблонами и юникодом (осень 2018)](https://www.youtube.com/watch?v=GcopcHQkA8M&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 
 ## Основные понятия
 
@@ -300,31 +295,6 @@
   после использования
 - [Таймеры / Timers](https://github.com/HowProgrammingWorks/Timers)
 
-Видео:
-- [Массивы, объекты, классы, прототипы (осень 2018)](https://www.youtube.com/watch?v=VBMGnAPfmsY&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Функции, лямбды, контексты, замыкания (осень 2018)](https://www.youtube.com/watch?v=pn5myCmpV2U&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Композиция, каррирование, частичное применение (осень 2018)](https://www.youtube.com/watch?v=ND8KQ5xjk7o&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Функции высшего порядка, колбеки, события на JavaScript (осень 2018)](https://www.youtube.com/watch?v=1vqATwbGHnc&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Замыкания, примеси, обертки, функторы, события (лето 2017)](https://www.youtube.com/watch?v=AiHiJL-fvNI&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [OdessaJS 2018, часть 1](https://www.youtube.com/watch?v=wkdqpR2BJu4&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [OdessaJS 2018, часть 2](https://www.youtube.com/watch?v=8jAuwfNw9aE&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Асинхронное программирование на Node.js (осень 2018)](https://www.youtube.com/watch?v=hY6Z6qNYzmc&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [Асинхронное программирование на JavaScript и Node.js (ХарьковJS 2017)](https://www.youtube.com/watch?v=VdRhAXnfrd0&list=PLHhi8ymDMrQY8settDxzdTGnnb1GZ_oQC)
-- [Асинхронное программирование с библиотекой Metasync (OdessaJS 2017)](https://www.youtube.com/watch?v=XRSxsw0Kgms&list=PLHhi8ymDMrQY8settDxzdTGnnb1GZ_oQC)
-- [Семинар и доклады на летней школе 2017](https://www.youtube.com/watch?v=pgOr3usXMXs&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [Введение в Node.js (осень 2018)](https://www.youtube.com/watch?v=WBcHgaoHh1k&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [Обзор Node.js API (осень 2018)](https://www.youtube.com/watch?v=sOkjR-N6IAs&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [Файлы, потоки, буферы, сеть, сокеты, ошибки (лето 2017)](https://www.youtube.com/watch?v=Kqs_Qnodvj0&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [Работа с файлами, буферами и файловыми потоками в Node.js (осень 2018)](https://www.youtube.com/watch?v=eQGBS15vUac&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [Модули, слои, структура проекта, песочницы в JavaScript и Node.js (осень 2018)](https://www.youtube.com/watch?v=O7A9chb573E&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [Исправление Keep Alive Timeout в NodeJS (OdessaJS 2015)](https://www.youtube.com/watch?v=Q8ohKdYrpRA&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [Клиент-сервер на Node.js TCP и UDP, DNS (осень 2018)](https://www.youtube.com/watch?v=bHn-wTlTTR0&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [HTTP сервер на Node.js (осень 2018)](https://www.youtube.com/watch?v=7Ufxj0oTaUo&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [Примеси, обертки, дектораторы, мемоизация (осень 2018)](https://www.youtube.com/watch?v=oRQ0kQr1N-U&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Консоль и командная строка (осень 2018)](https://www.youtube.com/watch?v=5aSZyKi5BmE&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Чеининг функций и объектов, обработка ошибок (осень 2018)](https://www.youtube.com/watch?v=PfuEfIiLX34&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Таймеры, таймауты, EventEmitter в JavaScript и Node.js(осень 2018)](https://www.youtube.com/watch?v=LK2jveAnRNg&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-
 ## Вспомогательные материалы
 
 - [Линтер / Linter](https://github.com/HowProgrammingWorks/Tools)
@@ -335,9 +305,6 @@
 - Менеджер пакетов
 - Непрерывная интеграция
 - Тестирование
-
-Видео:
-- [Настройка среды: Node.js, npm, git, eslint (осень 2018)](https://www.youtube.com/watch?v=hSyA7tcNaCE&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
 
 ## Структуры данных
 
@@ -418,19 +385,10 @@
 - Http Request (HTTP, XMLHttpRequest, fetch): [примеры](https://github.com/HowProgrammingWorks/HttpRequest)
 - [Неблокирующие итерации](https://github.com/HowProgrammingWorks/NonBlocking)
 
-Видео:
-- [Инверсия управления и внедрение зависимостей (осень 2018)](https://www.youtube.com/watch?v=Fz86Fdjz-LM&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [Измерение производительности кода и оптимизация (осень 2018)](https://www.youtube.com/watch?v=sanq2X7Re8o&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [Межпроцессовое взаимодействие (осень 2018)](https://www.youtube.com/watch?v=2OXWZFMvfbc&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-
 ## Примеры кода и комплексного использования технологий
 
 - [Живые электронные таблицы / Live Table](https://github.com/HowProgrammingWorks/LiveTable)
 - [Чат на вебсокетах / Websocket Chat](https://github.com/HowProgrammingWorks/WebsocketChat)
-
-Видео:
-- [Высоконагруженные распределенные приложения на Node.js (JS Conference 2017)](https://www.youtube.com/watch?v=7tfZDABPvVs&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
-- [WebSocket сервер на Node.js, электронные таблицы и чат (осень 2018)](https://www.youtube.com/watch?v=Sf7ln3n16ws&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
 
 ## Парадигмы программирования
 
@@ -450,8 +408,3 @@
   - Реактивное программирование / Reactive Programming
 - [Событийное программирование / Event-driven Programming](https://github.com/HowProgrammingWorks/EventDrivenProgramming)
 - [Метапрограммирование / Metaprogramming](https://github.com/HowProgrammingWorks/Metaprogramming)
-
-Видео:
-- [Архитектурный подход к программированию (осень 2018)](https://www.youtube.com/watch?v=d_vyO2CkiOc&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Архитектура приложений и метапрограммирование](https://www.youtube.com/watch?v=LXS0PqsQvx8&list=PLHhi8ymDMrQZad6JDh6HRzY1Wz5WB34w0)
-- [Слои, связанность и связность кода (осень 2018)](https://www.youtube.com/watch?v=A3RpwNlVeyY&list=PLHhi8ymDMrQZmXEqIIlq2S9-Ibh9b_-rQ)
