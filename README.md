@@ -9,6 +9,7 @@
 - [Структуры данных](https://github.com/HowProgrammingWorks/Dictionary#Структуры-данных)
 - [Расширенные понятия](https://github.com/HowProgrammingWorks/Dictionary#Расширенные-понятия)
 - [Примеры кода и комплексного использования технологий](https://github.com/HowProgrammingWorks/Dictionary#Примеры-кода-и-комплексного-использования-технологий)
+- [Параллельное программирование](https://github.com/HowProgrammingWorks/Dictionary#Параллельное-программирование)
 - [Парадигмы программирования](https://github.com/HowProgrammingWorks/Dictionary#Парадигмы-программирования)
 
 ## Базовые понятия
@@ -314,7 +315,7 @@
   - Паттерн реализует выбор одного из совместимых и взаимозаменяемых классов,
   которые содержат поведение (алгоритм), аналогичный по функциональности и
   реализующий общий интерфейс. Актуален и для функционального программирования.
-- [Фасад / Facade] https://github.com/HowProgrammingWorks/Facade
+- [Фасад / Facade](https://github.com/HowProgrammingWorks/Facade)
   - Паттерн для скрытия сложности. Фасад скрывает несколько инстансов разных
   классов в своих свойствах (иногда приватных, но для JS этого пока нет) и
   предоставляет общий (фасадный) интерфейс для управления ими.
@@ -417,6 +418,15 @@
 
 - [Живые электронные таблицы / Live Table](https://github.com/HowProgrammingWorks/LiveTable)
 - [Чат на вебсокетах / Websocket Chat](https://github.com/HowProgrammingWorks/WebsocketChat)
+
+## Параллельное программирование
+
+- [Потоки / Threads](https://github.com/HowProgrammingWorks/Threads)
+  - SharedArrayBuffer
+  - worker_threads в Node.js
+- [Атомарные операуии / Atomics](https://github.com/HowProgrammingWorks/Atomics)
+- [Семафор / Semaphore](https://github.com/HowProgrammingWorks/Semaphore)
+- [Мьютекс / Mutex](https://github.com/HowProgrammingWorks/Mutex)
 
 ## Парадигмы программирования
 
