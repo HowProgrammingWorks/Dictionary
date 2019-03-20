@@ -418,6 +418,7 @@
 
 - [Живые электронные таблицы / Live Table](https://github.com/HowProgrammingWorks/LiveTable)
 - [Чат на вебсокетах / Websocket Chat](https://github.com/HowProgrammingWorks/WebsocketChat)
+- [HTTP сессии на cookies](https://github.com/HowProgrammingWorks/Session)
 
 ## Параллельное программирование
 
