@@ -10,6 +10,7 @@
 - [Расширенные понятия](https://github.com/HowProgrammingWorks/Dictionary#Расширенные-понятия)
 - [Примеры кода и комплексного использования технологий](https://github.com/HowProgrammingWorks/Dictionary#Примеры-кода-и-комплексного-использования-технологий)
 - [Параллельное программирование](https://github.com/HowProgrammingWorks/Dictionary#Параллельное-программирование)
+- [Асинхронное программирование](https://github.com/HowProgrammingWorks/Dictionary#Асинхронное-программирование)
 - [Парадигмы программирования](https://github.com/HowProgrammingWorks/Dictionary#Парадигмы-программирования)
 
 ## Базовые понятия
@@ -246,8 +247,7 @@
 - [Множественное наследование / Multiple Inheritance](https://github.com/HowProgrammingWorks/Inheritance)
 - [Непрямое наследование / Indirect Inheritance](https://github.com/HowProgrammingWorks/Inheritance)
 - [Генератор / Generator](https://github.com/HowProgrammingWorks/Generator)
-- [Синхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
-- [Асинхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
+- [Итератор / Iterable and Iterator](https://github.com/HowProgrammingWorks/Iterator)
 - [Ввод/вывод / I/O, Input-output](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
   - операции, выходящие за рамки CPU и RAM (арифметико-логического устройства
   и памяти), т.е. операции с устройствами ввода вывода: сеть, диск, порты,
@@ -379,9 +379,8 @@
 - [Символ / Symbol](https://github.com/HowProgrammingWorks/Symbol)
 - [Дифер / Deferred](https://github.com/HowProgrammingWorks/Callbacks)
 - [Промис / Promise](https://github.com/HowProgrammingWorks/Promise)
+- [Необработанные ошибки в промисах на Node.js](https://github.com/HowProgrammingWorks/PromiseError)
 - [Фьючер / Future](https://github.com/HowProgrammingWorks/Callbacks)
-- [Асинхронность при помощи async/await](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
-- [Асинхронная композиция / Asynchronous Composition](https://github.com/metarhia/metasync/blob/master/lib/composition.js)
 - [Коллекторы данных / Data and Key Collectors](https://github.com/metarhia/metasync/blob/master/lib/collector.js)
 - Неизменяемые данные / Immutable Data
 - Изменяемые данные / Mutable Data
@@ -419,6 +418,16 @@
 - [Живые электронные таблицы / Live Table](https://github.com/HowProgrammingWorks/LiveTable)
 - [Чат на вебсокетах / Websocket Chat](https://github.com/HowProgrammingWorks/WebsocketChat)
 - [HTTP сессии на cookies](https://github.com/HowProgrammingWorks/Session)
+
+## Асинхронное программирование
+
+- [Синхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
+- [Асинхронные операции](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
+- [Асинхронность при помощи async/await](https://github.com/HowProgrammingWorks/AsynchronousProgramming)
+- [Асинхронная композиция / Asynchronous Composition](https://github.com/metarhia/metasync/blob/master/lib/composition.js)
+- [Асинхронный генератор / Async Generator](https://github.com/HowProgrammingWorks/AsyncGenerator)
+- [Асинхронный итератор / Async Iterator](https://github.com/HowProgrammingWorks/AsyncIterator)
+- [Проблема асинхронного стектрейса](https://www.youtube.com/watch?v=pfiHTx3j87Y)
 
 ## Параллельное программирование
 
