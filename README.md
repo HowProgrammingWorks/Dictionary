@@ -400,6 +400,7 @@
   - Кластеризация / Cluster mode
     - При помощи [cluster](https://github.com/HowProgrammingWorks/NodeServer/tree/master/native-cluster)
     - при помощи [child_process](https://github.com/HowProgrammingWorks/NodeServer/tree/master/native-cp)
+  - [Разработка API (клиент и сервер)](https://github.com/HowProgrammingWorks/API)
 - Сервер приложений / Application Server
 - Тонкий клиент и толстый клиент
 - [Проекция данных / Projection](https://github.com/HowProgrammingWorks/Projection)
