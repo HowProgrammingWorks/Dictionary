@@ -413,6 +413,7 @@
 - [Динамическая загрузка модулей / Live Code Reload](https://github.com/HowProgrammingWorks/LiveReload)
 - Http Request (HTTP, XMLHttpRequest, fetch): [примеры](https://github.com/HowProgrammingWorks/HttpRequest)
 - [Неблокирующие итерации](https://github.com/HowProgrammingWorks/NonBlocking)
+- [Линзы - функциональные аналоги геттера и сеттера](https://github.com/HowProgrammingWorks/Lenses)
 
 ## Примеры кода и комплексного использования технологий
 
