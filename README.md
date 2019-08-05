@@ -545,7 +545,7 @@
 - [Потоки / Threads](https://github.com/HowProgrammingWorks/Threads)
   - SharedArrayBuffer
   - worker_threads в Node.js
-- [Атомарные операуии / Atomics](https://github.com/HowProgrammingWorks/Atomics)
+- [Атомарные операции / Atomics](https://github.com/HowProgrammingWorks/Atomics)
 - [Семафор / Semaphore](https://github.com/HowProgrammingWorks/Semaphore)
 - [Мьютекс / Mutex](https://github.com/HowProgrammingWorks/Mutex)
 
