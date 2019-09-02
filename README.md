@@ -522,12 +522,6 @@
 - Критическая секция / Critical section - участок исполняемого кода, в котором
 производится эксклюзивный доступ к разделяемому ресурсу.
 
-## Примеры кода и комплексного использования технологий
-
-- [Живые электронные таблицы / Live Table](https://github.com/HowProgrammingWorks/LiveTable)
-- [Чат на вебсокетах / Websocket Chat](https://github.com/HowProgrammingWorks/WebsocketChat)
-- [HTTP сессии на cookies](https://github.com/HowProgrammingWorks/Session)
-
 ## Асинхронное программирование
 
 - Асинхронное программирование / Asynchronous Programming
