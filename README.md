@@ -454,10 +454,9 @@ function или синтаксиса стрелок (лямбда-функций
 
 ## Структуры данных
 
-- __[Запись или структура / Struct or Record](https://github.com/HowProgrammingWorks/DataStructures)__
-- __[Массив / Array](https://github.com/HowProgrammingWorks/DataStructures)__
-- __[Буфер / Buffer](https://github.com/HowProgrammingWorks/Buffers)__
-- __[Список / List](https://github.com/HowProgrammingWorks/LinkedList)__
+- [Запись или структура / Struct or Record](https://github.com/HowProgrammingWorks/DataStructures)
+- [Массив / Array](https://github.com/HowProgrammingWorks/DataStructures)
+- [Список / List](https://github.com/HowProgrammingWorks/LinkedList)
   - Односвязный, двусвязный, кольцевой, развернутый список (список массивов)
   - Реализация на объектах, массивах и замыканиях
   - Реализация на синтаксисе прототипов, классов и фабрик
